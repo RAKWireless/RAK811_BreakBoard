@@ -52,7 +52,7 @@ bool LIS3DH_ReadReg(uint8_t Reg, uint8_t* Data)
   uint8_t Read_Reg = Reg | LIS3DH_READBIT;
   //uint8_t Read_Reg = Reg ;
 	
-  ret = I2cReadBuffer( &Lis3dh_i2c, 0x33, Read_Reg, Data, 1 );
+  ret = I2cReadBuffer( &Lis3dh_i2c, 0x32, Read_Reg, Data, 1 );
   if (ret !=SUCCESS) {
     printf("LIS3DH no ack\r\n");
   }
@@ -72,7 +72,7 @@ u8_t LIS3DH_WriteReg(uint8_t WriteAddr, uint8_t Data)
 {
   int ret;
   
-  ret = I2cWriteBuffer( &Lis3dh_i2c, 0x33, WriteAddr, (uint8_t *)&Data, 1 );   
+  ret = I2cWriteBuffer( &Lis3dh_i2c, 0x32, WriteAddr, (uint8_t *)&Data, 1 );   
   if (ret !=SUCCESS) {
     printf("LIS3DH no ack\r\n");
   }
@@ -119,7 +119,7 @@ uint8_t LIS3DH_Init(void)
     
   DelayMs(10);
   
-  /*��ȡWHO_AM_I�ж�LIS3DH�Ƿ���� */
+  /*¶ÁÈ¡WHO_AM_IÅÐ¶ÏLIS3DHÊÇ·ñ´æÔÚ */
   LIS3DH_ReadReg(LIS3DH_WHO_AM_I,&whoami);  
   if(whoami != 0x33)
   {
