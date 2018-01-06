@@ -1,5 +1,5 @@
 ## RAK811 BreakBoard （For RAK811 TrackerBoard and RAK811 SensorNodeBoard）
-### chip： RAK811 + GPS + ACC + charge battery
+### chip： RAK811 + GPS + MEMS + charge battery
 #### Support CoIDE/Keil5 
 #### Base on semtech LoRaWAN1.0.2
 
