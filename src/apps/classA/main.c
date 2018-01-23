@@ -246,7 +246,8 @@ static void PrepareTxFrame( uint8_t port )
 				{
 					ret = GpsGetLatestGpsPositionDouble( &latitude, &longitude );
 				  altitudeGps = GpsGetLatestGpsAltitude( );                           // in m
-					printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);	
+				//printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);
+				printf("GpsGetLatestGpsPositionDouble ret = %d\r\n",ret);
       		if (ret == SUCCESS) 
 					{
 						AppData[0] = 0x01;
