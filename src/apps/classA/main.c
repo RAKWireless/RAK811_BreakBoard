@@ -219,7 +219,7 @@ void test_gps(void)
     uint8_t ret;
 	  ret = GpsGetLatestGpsPositionDouble( &latitude, &longitude );
 		altitudeGps = GpsGetLatestGpsAltitude( );                           // in m
-		printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);	    	
+	//	printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);	    	
 }
 
 void test_temp(void)
@@ -870,11 +870,12 @@ int main( void )
             {
                 if( NextTx == true )
                 {
-                    PrepareTxFrame( AppPort++ );
-									  if (AppPort >=5) {
-										    AppPort = 2;
-										}
+                    PrepareTxFrame( AppPort );
                     NextTx = SendFrame( );
+                   AppPort++;
+                  if (AppPort >=5){
+                     AppPort = 2;
+                  }
                 }
                 if( ComplianceTest.Running == true )
                 {
