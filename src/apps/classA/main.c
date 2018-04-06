@@ -1,6 +1,6 @@
 /*
  / _____)             _              | |
- ( (____  _____ ____ _| |_ _____  ____| |__
+( (____  _____ ____ _| |_ _____  ____| |__
  \____ \| ___ |    (_   _) ___ |/ ___)  _ \
  _____) ) ____| | | || |_| ____( (___| | | |
  (______/|_____)_|_|_| \__)_____)\____)_| |_|
@@ -24,7 +24,7 @@
 #include "Commissioning.h"
 
 /*!
- * Defines the application data transmission duty cycle. 5s, value in [ms].
+ * Defines the application data transmission duty cycle. 20s, value in [ms].
  */
 #define APP_TX_DUTYCYCLE                            20000
 
@@ -49,7 +49,7 @@
  *
  * \remark Please note that when ADR is enabled the end-device should be static
  */
-#define LORAWAN_ADR_ON                              1
+#define LORAWAN_ADR_ON                              0
 
 #if defined( REGION_EU868 )
 
