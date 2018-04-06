@@ -1,5 +1,5 @@
 # RAK811 BreakBoard （For RAK811 TrackerBoard and RAK811 SensorNodeBoard）
-- chip： LoRaWAN (RAK811) + GPS (MAX-7Q) + MEMS (LIS3DH) + charge battery (BQ23210)
+- chip: LoRaWAN (RAK811) + GPS (MAX-7Q) + MEMS (LIS3DH) + charge battery (BQ23210)
 - Support CoIDE/Keil5 
 - Base on semtech LoRaWAN1.0.2
 - Support for Makefile and the gcc-arm-none-eabi toolchain under linux
