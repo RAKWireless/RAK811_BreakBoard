@@ -7,7 +7,7 @@
 
 TARGET ?= classA
 
-GCC_ROOT = /usr
+GCC_ROOT = /opt/gcc-arm-none-eabi-7-2017-q4-major
 CC       = $(GCC_ROOT)/bin/arm-none-eabi-gcc
 CXX      = $(GCC_ROOT)/bin/arm-none-eabi-g++
 LD      = $(GCC_ROOT)/bin/arm-none-eabi-ld
