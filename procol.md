@@ -49,20 +49,23 @@ The resolution of the speed is 0.4m/s, which is about 1.4km/h, 0.9mph or 0.8knot
   // Decode an uplink message from a buffer
   // (array) of bytes to an object of fields.
   var decoded = {};
+    
+  // Chek if we got position information (port 1)
+  if (port == 1) {
+    decoded.latitude = (bytes[0] << 16 | bytes[1] << 8 | bytes[2]) * 180 / 0xFFFFFF - 90;
+    decoded.longitude = (bytes[3] << 16 | bytes[4] << 8 | bytes[5]) * 360 / 0xFFFFFF - 180;
+    decoded.altitude = (bytes[6] << 8 | bytes[7]) * 9500 / 0xFFFF - 500;
 
-  decoded.latitude = (bytes[0] << 16 | bytes[1] << 8 | bytes[2]) * 180 / 0xFFFFFF - 90;
-  decoded.longitude = (bytes[3] << 16 | bytes[4] << 8 | bytes[5]) * 360 / 0xFFFFFF - 180;
-  decoded.altitude = (bytes[6] << 8 | bytes[7]) * 9500 / 0xFFFF - 500;
+    //check if we got a valid HDOP field
+    if (bytes.length > 8 && bytes[8] > 0) {
+      decoded.hdop = bytes[8] / 10;
+    }
 
-  //check if we got a valid HDOP field
-  if (bytes.length > 8 && bytes[8] > 0) {
-    decoded.hdop = bytes[8] / 10;
-  }
-
-  //check if we got course and speed
-  if (bytes.length == 11) {
-    decoded.course = (bytes[9] * 360 / 255);
-    decoded.speed = (bytes[10] * 100 / 255);
+    //check if we got course and speed
+    if (bytes.length == 11) {
+      decoded.course = (bytes[9] * 360 / 255);
+      decoded.speed = (bytes[10] * 100 / 255);
+    }
   }
   return decoded;
 }```
