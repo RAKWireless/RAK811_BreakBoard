@@ -24,9 +24,9 @@
 #include "Commissioning.h"
 
 /*!
- * Defines the application data transmission duty cycle. 20s, value in [ms].
+ * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            20000
+#define APP_TX_DUTYCYCLE                            5000
 
 /*!
  * Defines a random delay for application data transmission duty cycle. 1s,
@@ -37,7 +37,7 @@
 /*!
  * Default datarate
  */
-#define LORAWAN_DEFAULT_DATARATE                    DR_0
+#define LORAWAN_DEFAULT_DATARATE                    DR_2
 
 /*!
  * LoRaWAN confirmed messages
