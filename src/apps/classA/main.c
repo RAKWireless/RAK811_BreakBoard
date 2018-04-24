@@ -741,7 +741,7 @@ int main(void) {
 			MlmeReq_t mlmeReq;
 
 			// Initialize LoRaMac device unique ID
-			//BoardGetUniqueId( DevEui );
+			BoardGetUniqueId( DevEui );
 
 			printf("OTAA: \r\n");
 			printf("Dev_EUI: ");
