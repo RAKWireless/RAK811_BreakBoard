@@ -4,12 +4,12 @@
 Position information are sent on fport 1.
 
 ### Payload format
-The payload consists of 12 bytes and looks like this: `LLLlllAAHDS`. The length is maximum of 11 bytes which complies with the recomondation of The Things Network to stay under 12 bytes.  
+The payload consists of 12 bytes and looks like this: `LLLlllAAHCS`. The length is maximum of 11 bytes which complies with the recomondation of The Things Network to stay under 12 bytes.  
 `LLL` Latitude  
 `lll` Longitude  
 `AA` Altitude  
 `H` HDOP  
-`D` Direction  
+`C` course  
 `S` Speed  
 HDOP is optional, but you have to send it (or `0x00` if you don't have HDOP info) if you want to send direction and speed. Direction and speed ar optional, but only as a group. Eighter you send both or none of them.
 
@@ -34,12 +34,35 @@ Minimum HDOP per Definition is 1. A value below 4 usualy is regarded as good, a 
 ```hdop=hdop_float*10```  
 If you got no HDOP from the GPS, just set the value to 0x00, as values below 0xA0 should not be possible according to the HDOP-definition. Any hdop above 25.5 should be set to 0xFF. For a tracker, normaly the HDOP is not too interesting, but I included it because ttnmapper uses this value.
 
-### Coding of direction `D`
-Direction and speed are not too interesting in a LoRaWAN-tracer-project, as usually the interval between messages is long. So direction and speed are optional and very coarse. Direction will be encoded into one byte, so we map 0°..360° into 0x00..0xFF. `dir` is the direction from the gps receiver that will be encoded into `direction`:  
-```direction=dir/360*0xFF```  
-The resolution of the direction is about 1.4°.
+### Coding of direction `C`
+Course and speed are not too interesting in a LoRaWAN-tracer-project, as usually the interval between messages is long. So course and speed are optional and very coarse. Course will be encoded into one byte, so we map 0°..360° into 0x00..0xFF. `cou` is the direction from the gps receiver that will be encoded into `course`:  
+```course=cou/360*0xFF```  
+The resolution of the course is about 1.4°.
 
 ### Coding of Speed `S`
 The speed (in m/s) will be encoded from 0..100m/s to 0x00..0xFF. This should be enough even for the german Autobahn as I think there are very few cars will go faster than 360km/h. `spe` from the GPS receiver will be encoded into `speed`:  
 ```speed=spe/100*0xFF```  
 The resolution of the speed is 0.4m/s, which is about 1.4km/h, 0.9mph or 0.8knots. Speeds above 100m/s should be encoded into 0xFF.
+
+## Sample TTN payload decoder
+```function Decoder(bytes, port) {
+  // Decode an uplink message from a buffer
+  // (array) of bytes to an object of fields.
+  var decoded = {};
+
+  decoded.latitude = (bytes[0] << 16 | bytes[1] << 8 | bytes[2]) * 180 / 0xFFFFFF - 90;
+  decoded.longitude = (bytes[3] << 16 | bytes[4] << 8 | bytes[5]) * 360 / 0xFFFFFF - 180;
+  decoded.altitude = (bytes[6] << 8 | bytes[7]) * 9500 / 0xFFFF - 500;
+
+  //check if we got a valid HDOP field
+  if (bytes.length > 8 && bytes[8] > 0) {
+    decoded.hdop = bytes[8] / 10;
+  }
+
+  //check if we got course and speed
+  if (bytes.length == 11) {
+    decoded.course = (bytes[9] * 360 / 255);
+    decoded.speed = (bytes[10] * 100 / 255);
+  }
+  return decoded;
+}```
