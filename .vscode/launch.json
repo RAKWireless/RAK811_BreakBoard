@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug-LoRaMac-classA",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "request": "launch",
+            "executable": "${workspaceRoot}/Debug/classA.axf",
+            "cwd": "${workspaceRoot}",
+            "svdFile": "${workspaceRoot}/cmake/STM32L15xxxA.svd"
+            "configFiles": [
+                "interface/jlink.cfg",
+//                "interface/stlink-v2.cfg",                
+                "${workspaceRoot}/cmake/swd.cfg",
+                "target/stm32l1.cfg"
+            ]
+        }
+    ]
+}
