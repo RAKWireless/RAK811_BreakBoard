@@ -137,10 +137,10 @@ void BoardInitMcu( void )
 			
 				UartMcuInit(&Uart1, UART_1, UART_TX, UART_RX);
 				UartMcuConfig(&Uart1, RX_TX, 115200, 
-																		 UART_8_BIT,
-																		 UART_1_STOP_BIT,
-																		 NO_PARITY,
-																		 NO_FLOW_CTRL);
+					UART_8_BIT,
+					UART_1_STOP_BIT,
+					NO_PARITY,
+					NO_FLOW_CTRL);
         RtcInit( );
 
         BoardUnusedIoInit( );	
