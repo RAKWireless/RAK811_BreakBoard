@@ -24,7 +24,7 @@ typedef enum
 	UART_3,
 	UART_COUNT,
     UART_USB_CDC = 255,
-}UartId_t;
+} UartId_t;
 
 /*!
  * \brief Initializes the UART object and MCU peripheral

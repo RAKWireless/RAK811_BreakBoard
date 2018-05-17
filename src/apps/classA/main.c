@@ -214,8 +214,6 @@ void test_gps(void) {
 	uint8_t ret;
 	ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
 	altitudeGps = GpsGetLatestGpsAltitude(); // in m
-	printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n",
-			latitude, longitude, altitudeGps);
 }
 
 void test_temp(void) {
@@ -223,8 +221,6 @@ void test_temp(void) {
 
 	LIS3DH_GetTempRaw(&tempr); //only tempr changed value
 	tempr = tempr + 20; // temprature should be calibration  in a right temp for every device
-	printf("[Debug]: tempr: %d Bat: %dmv\r\n", tempr,
-			BoardBatteryMeasureVolage());
 }
 
 uint8_t GPS_GETFAIL = FAIL;
@@ -360,8 +356,8 @@ static void PrepareTxFrame(uint8_t port) {
 	default:
 		break;
 	}
-	printf("Port: %d, Payload (%d Bytes): ", port, AppDataSize);
-	dump_hex2str(AppData, AppDataSize);
+	// printf("Port: %d, Payload (%d Bytes): ", port, AppDataSize);
+	// dump_hex2str(AppData, AppDataSize);
 }
 
 /*!
@@ -781,7 +777,7 @@ int main(void) {
 			MlmeReq_t mlmeReq;
 
 			// Initialize LoRaMac device unique ID
-			BoardGetUniqueId(DevEui);
+			BoardGetUniqueId( DevEui );
 
 			printf("OTAA: \r\n");
 			printf("Dev_EUI: ");
