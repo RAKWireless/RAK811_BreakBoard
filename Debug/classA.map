@@ -1,0 +1,2248 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                              src/boards/RAK811BreakBoard/rtc-board.o (__aeabi_dsub)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                              src/apps/classA/main.o (__aeabi_dmul)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                              src/system/gps.o (__aeabi_dcmpeq)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                              src/apps/classA/main.o (__aeabi_d2iz)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunsdfsi.o)
+                              src/apps/classA/main.o (__aeabi_d2uiz)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                              src/mac/region/RegionCommon.o (__aeabi_fsub)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                              src/boards/RAK811BreakBoard/board.o (__aeabi_fmul)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+                              src/mac/region/RegionKR920.o (__aeabi_fcmplt)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+                              src/boards/RAK811BreakBoard/board.o (__aeabi_f2uiz)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+                              src/system/gps.o (atoi)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (exit)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (__libc_init_array)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (memset)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+                              src/system/gps.o (strncmp)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o) (_strtol_r)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o) (__locale_ctype_ptr_l)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o) (__ascii_mbtowc)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o) (strcmp)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o) (__ascii_wctomb)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-ctype_.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o) (_ctype_)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+                              src/radio/sx1276/sx1276.o (ceil)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+                              src/radio/sx1276/sx1276.o (floor)
+/usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+                              src/radio/sx1276/sx1276.o (round)
+
+Allocating common symbols
+Common symbol       size              file
+
+GpsPps              0xc               src/boards/RAK811BreakBoard/gps-board.o
+PpsTrigger          0x1               src/boards/RAK811BreakBoard/gps-board.o
+Led2                0xc               src/boards/RAK811BreakBoard/board.o
+Lis3dh_int1         0xc               src/peripherals/lis3dh.o
+I2c                 0x6c              src/boards/RAK811BreakBoard/board.o
+NmeaGpsData         0x63              src/system/gps.o
+uwTick              0x4               src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+GPS_RxBuffer        0x200             src/boards/RAK811BreakBoard/uart-board.o
+Uart1               0x38              src/boards/RAK811BreakBoard/board.o
+RtcCalendarContext  0x14              src/boards/RAK811BreakBoard/rtc-board.o
+Lis3dh_int2         0xc               src/peripherals/lis3dh.o
+Adc                 0xc               src/boards/RAK811BreakBoard/board.o
+GpsPowerEn          0xc               src/boards/RAK811BreakBoard/gps-board.o
+UartContext         0x88              src/boards/RAK811BreakBoard/uart-board.o
+Led1                0xc               src/boards/RAK811BreakBoard/board.o
+NmeaString          0x80              src/boards/RAK811BreakBoard/gps-board.o
+AntCrxRx            0xc               src/boards/RAK811BreakBoard/sx1276-board.o
+LoRaMacFlags        0x1               src/mac/LoRaMac.o
+LoRaMacParamsDefaults
+                    0x38              src/mac/LoRaMac.o
+AdcHandle           0x54              src/boards/RAK811BreakBoard/adc-board.o
+TxTimeoutTimer      0x14              src/radio/sx1276/sx1276.o
+AntCbtHf            0xc               src/boards/RAK811BreakBoard/sx1276-board.o
+Lis3dh_i2c          0x6c              src/peripherals/lis3dh.o
+UART_RxBuffer       0x200             src/boards/RAK811BreakBoard/uart-board.o
+RxTimeoutSyncWord   0x14              src/radio/sx1276/sx1276.o
+ComplianceTest      0x14              src/apps/classA/main.o
+LoRaMacParams       0x38              src/mac/LoRaMac.o
+AntCtxPa            0xc               src/boards/RAK811BreakBoard/sx1276-board.o
+GpsUart             0x38              src/boards/RAK811BreakBoard/board.o
+SX1276              0x14c             src/radio/sx1276/sx1276.o
+RxTimeoutTimer      0x14              src/radio/sx1276/sx1276.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .data          0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .text          0x0000000000000000       0x74 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1b /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .data          0x0000000000000000      0x428 src/system/printf.o
+ .bss           0x0000000000000000        0x0 src/system/printf.o
+ .data          0x0000000000000000        0x0 src/peripherals/lis3dh.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/gps-board.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/rtc-board.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/adc-board.o
+ .bss           0x0000000000000000        0x0 src/boards/RAK811BreakBoard/adc-board.o
+ .bss           0x0000000000000000        0x0 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/sx1276-board.o
+ .text          0x0000000000000000      0x1f0 src/boards/RAK811BreakBoard/eeprom-board.o
+ .data          0x0000000000000000        0x1 src/boards/RAK811BreakBoard/eeprom-board.o
+ .bss           0x0000000000000000        0x0 src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_info    0x0000000000000000     0x2169 src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_abbrev  0x0000000000000000      0x2ae src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_loc     0x0000000000000000      0x430 src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_line    0x0000000000000000      0x365 src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_str     0x0000000000000000     0x15a5 src/boards/RAK811BreakBoard/eeprom-board.o
+ .comment       0x0000000000000000       0x7f src/boards/RAK811BreakBoard/eeprom-board.o
+ .debug_frame   0x0000000000000000       0x80 src/boards/RAK811BreakBoard/eeprom-board.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/boards/RAK811BreakBoard/eeprom-board.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/i2c-board.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/spi-board.o
+ .bss           0x0000000000000000        0x0 src/boards/RAK811BreakBoard/spi-board.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/gpio-board.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/sysIrqHandlers.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/sysIrqHandlers.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/uart-board.o
+ .bss           0x0000000000000000        0x0 src/boards/RAK811BreakBoard/uart-board.o
+ .data          0x0000000000000000        0x0 src/system/fifo.o
+ .bss           0x0000000000000000        0x0 src/system/fifo.o
+ .data          0x0000000000000000        0x0 src/system/timer.o
+ .data          0x0000000000000000        0x0 src/system/delay.o
+ .bss           0x0000000000000000        0x0 src/system/delay.o
+ .data          0x0000000000000000        0x0 src/system/gpio.o
+ .bss           0x0000000000000000        0x0 src/system/gpio.o
+ .data          0x0000000000000000        0x0 src/system/adc.o
+ .text          0x0000000000000000       0xcc src/system/uart.o
+ .data          0x0000000000000000        0x0 src/system/uart.o
+ .bss           0x0000000000000000        0x0 src/system/uart.o
+ .debug_info    0x0000000000000000     0x2278 src/system/uart.o
+ .debug_abbrev  0x0000000000000000      0x291 src/system/uart.o
+ .debug_loc     0x0000000000000000      0x439 src/system/uart.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/system/uart.o
+ .debug_ranges  0x0000000000000000       0x18 src/system/uart.o
+ .debug_line    0x0000000000000000      0x333 src/system/uart.o
+ .debug_str     0x0000000000000000     0x16b2 src/system/uart.o
+ .comment       0x0000000000000000       0x7f src/system/uart.o
+ .debug_frame   0x0000000000000000       0xd8 src/system/uart.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/system/uart.o
+ .data          0x0000000000000000        0x0 src/system/i2c.o
+ .data          0x0000000000000000        0x0 src/system/crypto/cmac.o
+ .bss           0x0000000000000000        0x0 src/system/crypto/cmac.o
+ .data          0x0000000000000000        0x0 src/system/crypto/aes.o
+ .bss           0x0000000000000000        0x0 src/system/crypto/aes.o
+ .data          0x0000000000000000        0x0 src/mac/region/Region.o
+ .bss           0x0000000000000000        0x0 src/mac/region/Region.o
+ .text          0x0000000000000000      0xa28 src/mac/region/RegionUS915-Hybrid.o
+ .data          0x0000000000000000       0x10 src/mac/region/RegionUS915-Hybrid.o
+ .bss           0x0000000000000000      0x384 src/mac/region/RegionUS915-Hybrid.o
+ .rodata        0x0000000000000000       0x84 src/mac/region/RegionUS915-Hybrid.o
+ .debug_info    0x0000000000000000     0x3c5a src/mac/region/RegionUS915-Hybrid.o
+ .debug_abbrev  0x0000000000000000      0x573 src/mac/region/RegionUS915-Hybrid.o
+ .debug_loc     0x0000000000000000     0x15f1 src/mac/region/RegionUS915-Hybrid.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mac/region/RegionUS915-Hybrid.o
+ .debug_ranges  0x0000000000000000      0x1d0 src/mac/region/RegionUS915-Hybrid.o
+ .debug_line    0x0000000000000000      0x716 src/mac/region/RegionUS915-Hybrid.o
+ .debug_str     0x0000000000000000     0x289f src/mac/region/RegionUS915-Hybrid.o
+ .comment       0x0000000000000000       0x7f src/mac/region/RegionUS915-Hybrid.o
+ .debug_frame   0x0000000000000000      0x2c8 src/mac/region/RegionUS915-Hybrid.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/mac/region/RegionUS915-Hybrid.o
+ .text          0x0000000000000000      0xac4 src/mac/region/RegionAS923.o
+ .data          0x0000000000000000       0x10 src/mac/region/RegionAS923.o
+ .bss           0x0000000000000000       0xc4 src/mac/region/RegionAS923.o
+ .rodata        0x0000000000000000       0x60 src/mac/region/RegionAS923.o
+ .debug_info    0x0000000000000000     0x3b22 src/mac/region/RegionAS923.o
+ .debug_abbrev  0x0000000000000000      0x4e8 src/mac/region/RegionAS923.o
+ .debug_loc     0x0000000000000000     0x14b7 src/mac/region/RegionAS923.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mac/region/RegionAS923.o
+ .debug_ranges  0x0000000000000000       0xf8 src/mac/region/RegionAS923.o
+ .debug_line    0x0000000000000000      0x6ff src/mac/region/RegionAS923.o
+ .debug_str     0x0000000000000000     0x282c src/mac/region/RegionAS923.o
+ .comment       0x0000000000000000       0x7f src/mac/region/RegionAS923.o
+ .debug_frame   0x0000000000000000      0x2e0 src/mac/region/RegionAS923.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/mac/region/RegionAS923.o
+ .data          0x0000000000000000        0x0 src/mac/region/RegionCommon.o
+ .bss           0x0000000000000000        0x0 src/mac/region/RegionCommon.o
+ .text          0x0000000000000000      0xa20 src/mac/region/RegionKR920.o
+ .data          0x0000000000000000       0x10 src/mac/region/RegionKR920.o
+ .bss           0x0000000000000000       0xc4 src/mac/region/RegionKR920.o
+ .rodata        0x0000000000000000       0x4e src/mac/region/RegionKR920.o
+ .debug_info    0x0000000000000000     0x3aed src/mac/region/RegionKR920.o
+ .debug_abbrev  0x0000000000000000      0x502 src/mac/region/RegionKR920.o
+ .debug_loc     0x0000000000000000     0x1421 src/mac/region/RegionKR920.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mac/region/RegionKR920.o
+ .debug_ranges  0x0000000000000000       0xf8 src/mac/region/RegionKR920.o
+ .debug_line    0x0000000000000000      0x6ec src/mac/region/RegionKR920.o
+ .debug_str     0x0000000000000000     0x27a6 src/mac/region/RegionKR920.o
+ .comment       0x0000000000000000       0x7f src/mac/region/RegionKR920.o
+ .debug_frame   0x0000000000000000      0x2e0 src/mac/region/RegionKR920.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/mac/region/RegionKR920.o
+ .text          0x0000000000000000      0x8c4 src/mac/region/RegionAU915.o
+ .data          0x0000000000000000       0x10 src/mac/region/RegionAU915.o
+ .bss           0x0000000000000000      0x384 src/mac/region/RegionAU915.o
+ .rodata        0x0000000000000000       0x9a src/mac/region/RegionAU915.o
+ .debug_info    0x0000000000000000     0x39c5 src/mac/region/RegionAU915.o
+ .debug_abbrev  0x0000000000000000      0x4f8 src/mac/region/RegionAU915.o
+ .debug_loc     0x0000000000000000     0x10ed src/mac/region/RegionAU915.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mac/region/RegionAU915.o
+ .debug_ranges  0x0000000000000000       0xf0 src/mac/region/RegionAU915.o
+ .debug_line    0x0000000000000000      0x664 src/mac/region/RegionAU915.o
+ .debug_str     0x0000000000000000     0x276c src/mac/region/RegionAU915.o
+ .comment       0x0000000000000000       0x7f src/mac/region/RegionAU915.o
+ .debug_frame   0x0000000000000000      0x27c src/mac/region/RegionAU915.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/mac/region/RegionAU915.o
+ .text          0x0000000000000000      0xa50 src/mac/region/RegionIN865.o
+ .data          0x0000000000000000       0x10 src/mac/region/RegionIN865.o
+ .bss           0x0000000000000000       0xc4 src/mac/region/RegionIN865.o
+ .rodata        0x0000000000000000       0x64 src/mac/region/RegionIN865.o
+ .debug_info    0x0000000000000000     0x3a83 src/mac/region/RegionIN865.o
+ .debug_abbrev  0x0000000000000000      0x4bb src/mac/region/RegionIN865.o
+ .debug_loc     0x0000000000000000     0x1373 src/mac/region/RegionIN865.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mac/region/RegionIN865.o
+ .debug_ranges  0x0000000000000000       0xe0 src/mac/region/RegionIN865.o
+ .debug_line    0x0000000000000000      0x6bc src/mac/region/RegionIN865.o
+ .debug_str     0x0000000000000000     0x27c0 src/mac/region/RegionIN865.o
+ .comment       0x0000000000000000       0x7f src/mac/region/RegionIN865.o
+ .debug_frame   0x0000000000000000      0x2dc src/mac/region/RegionIN865.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/mac/region/RegionIN865.o
+ .text          0x0000000000000000      0x91c src/mac/region/RegionUS915.o
+ .data          0x0000000000000000       0x10 src/mac/region/RegionUS915.o
+ .bss           0x0000000000000000      0x384 src/mac/region/RegionUS915.o
+ .rodata        0x0000000000000000       0x84 src/mac/region/RegionUS915.o
+ .debug_info    0x0000000000000000     0x3a1e src/mac/region/RegionUS915.o
+ .debug_abbrev  0x0000000000000000      0x4d7 src/mac/region/RegionUS915.o
+ .debug_loc     0x0000000000000000     0x139e src/mac/region/RegionUS915.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/mac/region/RegionUS915.o
+ .debug_ranges  0x0000000000000000      0x130 src/mac/region/RegionUS915.o
+ .debug_line    0x0000000000000000      0x6a5 src/mac/region/RegionUS915.o
+ .debug_str     0x0000000000000000     0x276c src/mac/region/RegionUS915.o
+ .comment       0x0000000000000000       0x7f src/mac/region/RegionUS915.o
+ .debug_frame   0x0000000000000000      0x284 src/mac/region/RegionUS915.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/mac/region/RegionUS915.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/utilities.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .text          0x0000000000000000      0xa74 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_info    0x0000000000000000     0x1a28 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_abbrev  0x0000000000000000      0x3c0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_loc     0x0000000000000000      0xdd3 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_aranges
+                0x0000000000000000       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_ranges  0x0000000000000000       0x78 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_line    0x0000000000000000      0x843 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_str     0x0000000000000000      0xd5d src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .comment       0x0000000000000000       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .debug_frame   0x0000000000000000      0x2fc src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .ARM.attributes
+                0x0000000000000000       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .data          0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .bss           0x0000000000000000        0x0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .text          0x0000000000000000       0x14 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+ .data          0x0000000000000000        0x0 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+ .bss           0x0000000000000000        0x0 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .text          0x0000000000000000       0xec /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x0000000000000000       0xc8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+ .text._atoi_r  0x0000000000000000        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x28 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x0000000000000000       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .text.strtol_l
+                0x0000000000000000       0x1c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0000000000000000       0x38 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .text.__locale_mb_cur_max
+                0x0000000000000000       0x1c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .text.__locale_ctype_ptr
+                0x0000000000000000       0x1c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .text.setlocale
+                0x0000000000000000       0x10 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x0000000000000000       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+ .text          0x0000000000000000       0x14 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000000       0x1b /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x0000000000000000       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-ctype_.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+ .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+ .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000020000 xr
+RAM              0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+LOAD src/apps/classA/main.o
+LOAD src/system/printf.o
+LOAD src/radio/sx1276/sx1276.o
+LOAD src/peripherals/lis3dh.o
+LOAD src/boards/RAK811BreakBoard/gps-board.o
+LOAD src/boards/RAK811BreakBoard/rtc-board.o
+LOAD src/boards/RAK811BreakBoard/adc-board.o
+LOAD src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+LOAD src/boards/RAK811BreakBoard/sx1276-board.o
+LOAD src/boards/RAK811BreakBoard/eeprom-board.o
+LOAD src/boards/RAK811BreakBoard/board.o
+LOAD src/boards/RAK811BreakBoard/i2c-board.o
+LOAD src/boards/RAK811BreakBoard/spi-board.o
+LOAD src/boards/RAK811BreakBoard/gpio-board.o
+LOAD src/boards/mcu/stm32/sysIrqHandlers.o
+LOAD src/boards/RAK811BreakBoard/uart-board.o
+LOAD src/system/fifo.o
+LOAD src/system/timer.o
+LOAD src/system/delay.o
+LOAD src/system/gpio.o
+LOAD src/system/adc.o
+LOAD src/system/gps.o
+LOAD src/system/uart.o
+LOAD src/system/i2c.o
+LOAD src/system/crypto/cmac.o
+LOAD src/system/crypto/aes.o
+LOAD src/mac/LoRaMac.o
+LOAD src/mac/region/Region.o
+LOAD src/mac/region/RegionEU868.o
+LOAD src/mac/region/RegionUS915-Hybrid.o
+LOAD src/mac/region/RegionAS923.o
+LOAD src/mac/region/RegionCommon.o
+LOAD src/mac/region/RegionKR920.o
+LOAD src/mac/region/RegionAU915.o
+LOAD src/mac/region/RegionIN865.o
+LOAD src/mac/region/RegionUS915.o
+LOAD src/mac/LoRaMacCrypto.o
+LOAD src/boards/mcu/stm32/utilities.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+LOAD src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+LOAD src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a
+END GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x0000000020007fff                _estack = 0x20007fff
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x13c
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x13c src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+                0x0000000008000000                g_pfnVectors
+                0x000000000800013c                . = ALIGN (0x4)
+
+.text           0x0000000008000140    0x12b14
+                0x0000000008000140                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000008000140       0x40 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .text          0x0000000008000180      0x394 src/apps/classA/main.o
+                0x0000000008000480                dump_hex2str
+                0x00000000080004ac                test_gps
+                0x00000000080004e4                test_temp
+ .text          0x0000000008000514      0x350 src/system/printf.o
+                0x0000000008000514                PrintChar
+                0x0000000008000518                PutChar
+                0x000000000800051e                PutString
+                0x000000000800052e                PutUnsignedInt
+                0x0000000008000572                PutSignedInt
+                0x00000000080005e2                PutHexa
+                0x0000000008000634                vsnprintf
+                0x0000000008000730                snprintf
+                0x000000000800074a                vsprintf
+                0x0000000008000754                sprintf
+                0x000000000800076e                fputc
+                0x0000000008000798                fputs
+                0x00000000080007b6                vfprintf
+                0x000000000800080c                vprintf
+                0x0000000008000820                printf
+                0x000000000800083a                fprintf
+                0x0000000008000854                puts
+ *fill*         0x0000000008000864        0x4 
+ .text          0x0000000008000868     0x1608 src/radio/sx1276/sx1276.o
+                0x0000000008000890                SX1276OnDio4Irq
+                0x00000000080008ac                SX1276GetStatus
+                0x00000000080008b8                SX1276Reset
+                0x00000000080008f8                SX1276WriteBuffer
+                0x000000000800093c                SX1276Write
+                0x0000000008000952                SX1276SetChannel
+                0x000000000800099c                SX1276ReadBuffer
+                0x00000000080009e4                SX1276Read
+                0x0000000008000a9c                SX1276GetTimeOnAir
+                0x0000000008000c80                SX1276ReadRssi
+                0x0000000008000cc4                SX1276SetOpMode
+                0x0000000008000cf4                SX1276SetSleep
+                0x0000000008000d20                SX1276SetStby
+                0x0000000008000d4c                SX1276SetRx
+                0x0000000008000f64                SX1276SetTx
+                0x0000000008001004                SX1276StartCad
+                0x0000000008001040                SX1276SetModem
+                0x00000000080010bc                SX1276Init
+                0x0000000008001140                SX1276IsChannelFree
+                0x0000000008001188                SX1276Random
+                0x00000000080011c6                SX1276SetRxConfig
+                0x00000000080014cc                SX1276SetTxConfig
+                0x000000000800172c                SX1276SetTxContinuousWave
+                0x00000000080017ac                SX1276OnDio2Irq
+                0x0000000008001884                SX1276OnDio3Irq
+                0x00000000080018d8                SX1276WriteFifo
+                0x00000000080018e2                SX1276Send
+                0x00000000080019e0                SX1276ReadFifo
+                0x00000000080019ea                SX1276OnDio0Irq
+                0x0000000008001c4c                SX1276OnDio1Irq
+                0x0000000008001d3c                SX1276SetMaxPayloadLength
+                0x0000000008001d70                SX1276SetPublicNetwork
+                0x0000000008001d98                SX1276OnTimeoutIrq
+                0x0000000008001e6c                SX1276OnDio5Irq
+ .text          0x0000000008001e70      0xdc4 src/peripherals/lis3dh.o
+                0x0000000008001e70                Lis3dh_Event
+                0x0000000008001e7c                LIS3DH_ReadReg
+                0x0000000008001eac                LIS3DH_WriteReg
+                0x0000000008001edc                Lis3dhGetIntState
+                0x0000000008001ef8                LIS3DH_GetStatusAUX
+                0x0000000008001f00                LIS3DH_GetStatusAUXBit
+                0x0000000008001f94                LIS3DH_SetODR
+                0x0000000008001fc6                LIS3DH_SetTemperature
+                0x0000000008001ffc                LIS3DH_SetADCAux
+                0x000000000800202e                LIS3DH_GetAuxRaw
+                0x00000000080020be                LIS3DH_GetTempRaw
+                0x00000000080020ec                LIS3DH_SetMode
+                0x00000000080021a0                LIS3DH_SetAxis
+                0x00000000080021d2                LIS3DH_SetFullScale
+                0x0000000008002204                LIS3DH_SetBDU
+                0x0000000008002236                LIS3DH_SetBLE
+                0x0000000008002268                LIS3DH_SetSelfTest
+                0x000000000800229a                LIS3DH_HPFClickEnable
+                0x00000000080022cc                LIS3DH_HPFAOI1Enable
+                0x00000000080022fa                LIS3DH_HPFAOI2Enable
+                0x000000000800232c                LIS3DH_SetHPFMode
+                0x000000000800235e                LIS3DH_SetHPFCutOFF
+                0x000000000800239a                LIS3DH_SetFilterDataSel
+                0x00000000080023cc                LIS3DH_SetInt1Pin
+                0x00000000080023f2                LIS3DH_SetInt2Pin
+                0x0000000008002418                LIS3DH_SetClickCFG
+                0x0000000008002446                LIS3DH_SetClickTHS
+                0x0000000008002460                LIS3DH_SetClickLIMIT
+                0x000000000800247a                LIS3DH_SetClickLATENCY
+                0x000000000800248c                LIS3DH_SetClickWINDOW
+                0x000000000800249e                LIS3DH_GetClickResponse
+                0x0000000008002530                LIS3DH_RESET_MEM
+                0x000000000800255c                LIS3DH_Int1LatchEnable
+                0x000000000800258e                LIS3DH_ResetInt1Latch
+                0x00000000080025a0                LIS3DH_SetIntConfiguration
+                0x00000000080025ce                LIS3DH_SetIntMode
+                0x0000000008002600                LIS3DH_SetInt6D4DConfiguration
+                0x000000000800268c                LIS3DH_Get6DPosition
+                0x00000000080026c6                LIS3DH_SetInt1Threshold
+                0x00000000080026e0                LIS3DH_SetInt1Duration
+                0x00000000080026fa                LIS3DH_Init
+                0x00000000080027d0                LIS3DH_FIFOModeEnable
+                0x0000000008002962                LIS3DH_SetTriggerInt
+                0x0000000008002994                LIS3DH_SetWaterMark
+                0x00000000080029cc                LIS3DH_GetStatusReg
+                0x00000000080029d4                LIS3DH_GetStatusBit
+                0x0000000008002a6c                LIS3DH_GetAccAxesRaw
+                0x0000000008002ade                LIS3DH_GetInt1Src
+                0x0000000008002ae6                Lis3dh_IntEventClear
+                0x0000000008002b04                LIS3DH_GetInt1SrcBit
+                0x0000000008002b8c                LIS3DH_GetFifoSourceReg
+                0x0000000008002b94                LIS3DH_GetFifoSourceBit
+                0x0000000008002be2                LIS3DH_GetFifoSourceFSS
+                0x0000000008002c02                LIS3DH_SetSPIInterface
+                0x0000000008002c30                LIS3DH_enableFiFo
+ .text          0x0000000008002c34      0x12c src/boards/RAK811BreakBoard/gps-board.o
+                0x0000000008002c34                GpsMcuOnPpsSignal
+                0x0000000008002c36                GpsMcuIrqNotify
+                0x0000000008002c90                GpsMcuInvertPpsTrigger
+                0x0000000008002cbc                GpsMcuStart
+                0x0000000008002cc8                GpsMcuInit
+                0x0000000008002d50                GpsMcuStop
+                0x0000000008002d5c                GpsMcuProcess
+ .text          0x0000000008002d60      0x844 src/boards/RAK811BreakBoard/rtc-board.o
+                0x0000000008002f0c                RtcInit
+                0x0000000008002f90                RtcSetTimeout
+                0x00000000080031c4                RtcGetAdjustedTimeoutValue
+                0x0000000008003200                RtcGetTimerValue
+                0x0000000008003204                RtcGetElapsedAlarmTime
+                0x0000000008003224                RtcComputeFutureEventTime
+                0x0000000008003230                RtcComputeElapsedTime
+                0x000000000800324a                RtcEnterLowPowerStopMode
+                0x000000000800328c                RtcRecoverMcuStatus
+                0x00000000080032cc                BlockLowPowerDuringTask
+                0x00000000080032e4                RtcConvertTimerTimeToCalendarTick
+                0x000000000800350c                RTC_Alarm_IRQHandler
+ .text          0x00000000080035a4      0x13c src/boards/RAK811BreakBoard/adc-board.o
+                0x00000000080035a4                AdcMcuInit
+                0x00000000080035ec                AdcMcuConfig
+                0x0000000008003618                AdcMcuReadChannel
+ .text          0x00000000080036e0       0xd4 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+                0x00000000080036e0                SystemInit
+                0x0000000008003728                SystemCoreClockUpdate
+ .text          0x00000000080037b4      0x2a8 src/boards/RAK811BreakBoard/sx1276-board.o
+                0x00000000080037b4                SX1276CheckRfFrequency
+                0x00000000080037b8                SX1276IoInit
+                0x0000000008003834                SX1276IoIrqInit
+                0x0000000008003894                SX1276IoDeInit
+                0x000000000800390c                SX1276SetRfTxPower
+                0x000000000800396e                SX1276GetPaSelect
+                0x0000000008003972                SX1276AntSwInit
+                0x00000000080039b8                SX1276AntSwDeInit
+                0x00000000080039fc                SX1276SetAntSwLowPower
+                0x0000000008003a18                SX1276SetAntSw
+ .text          0x0000000008003a5c      0x340 src/boards/RAK811BreakBoard/board.o
+                0x0000000008003a5c                BoardDisableIrq
+                0x0000000008003a6c                BoardEnableIrq
+                0x0000000008003a80                BoardInitPeriph
+                0x0000000008003ae0                BoardInitMcu
+                0x0000000008003c64                BoardDeInitMcu
+                0x0000000008003c90                BoardGetRandomSeed
+                0x0000000008003ca8                BoardGetUniqueId
+                0x0000000008003cf8                BoardBatteryMeasureVolage
+                0x0000000008003d68                BoardGetBatteryVoltage
+                0x0000000008003d74                BoardGetBatteryLevel
+                0x0000000008003d88                SysTick_Handler
+                0x0000000008003d96                GetBoardPowerSource
+ .text          0x0000000008003d9c      0x1a0 src/boards/RAK811BreakBoard/i2c-board.o
+                0x0000000008003d9c                I2cMcuInit
+                0x0000000008003e04                I2cMcuFormat
+                0x0000000008003e48                I2cMcuDeInit
+                0x0000000008003eb8                I2cSetAddrSize
+                0x0000000008003ec4                I2cMcuWriteBuffer
+                0x0000000008003ef4                I2cMcuReadBuffer
+                0x0000000008003f24                I2cMcuWaitStandbyState
+ .text          0x0000000008003f3c      0x218 src/boards/RAK811BreakBoard/spi-board.o
+                0x0000000008003f3c                SpiDeInit
+                0x0000000008003f94                SpiFormat
+                0x0000000008003fc2                SpiFrequency
+                0x0000000008004000                SpiInit
+                0x0000000008004124                SpiInOut
+ .text          0x0000000008004154      0x320 src/boards/RAK811BreakBoard/gpio-board.o
+                0x0000000008004154                GpioMcuSetInterrupt
+                0x0000000008004234                GpioMcuRemoveInterrupt
+                0x000000000800424c                GpioMcuWrite
+                0x0000000008004260                GpioMcuInit
+                0x000000000800436c                GpioMcuToggle
+                0x000000000800437e                GpioMcuRead
+                0x0000000008004396                EXTI0_IRQHandler
+                0x00000000080043a6                EXTI1_IRQHandler
+                0x00000000080043b6                EXTI2_IRQHandler
+                0x00000000080043c6                EXTI3_IRQHandler
+                0x00000000080043d6                EXTI4_IRQHandler
+                0x00000000080043e6                EXTI9_5_IRQHandler
+                0x0000000008004412                EXTI15_10_IRQHandler
+                0x000000000800444c                HAL_GPIO_EXTI_Callback
+ .text          0x0000000008004474        0xa src/boards/mcu/stm32/sysIrqHandlers.o
+                0x0000000008004474                NMI_Handler
+                0x0000000008004476                MemManage_Handler
+                0x0000000008004478                BusFault_Handler
+                0x000000000800447a                UsageFault_Handler
+                0x000000000800447c                DebugMon_Handler
+ *fill*         0x000000000800447e        0x2 
+ .text          0x0000000008004480      0x438 src/boards/RAK811BreakBoard/uart-board.o
+                0x0000000008004480                UartMcuInit
+                0x0000000008004524                UartMcuConfig
+                0x000000000800468c                UartMcuDeInit
+                0x00000000080046fc                UartMcuPutChar
+                0x0000000008004738                UartMcuGetChar
+                0x0000000008004766                HAL_UART_TxCpltCallback
+                0x00000000080047a4                HAL_UART_RxCpltCallback
+                0x0000000008004808                HAL_UART_ErrorCallback
+                0x0000000008004834                USART1_IRQHandler
+                0x0000000008004840                USART3_IRQHandler
+                0x0000000008004874                e_getchar
+                0x0000000008004898                e_printchar
+ .text          0x00000000080048b8       0x66 src/system/fifo.o
+                0x00000000080048b8                FifoInit
+                0x00000000080048c2                FifoPush
+                0x00000000080048da                FifoPop
+                0x00000000080048f2                FifoFlush
+                0x00000000080048f8                IsFifoEmpty
+                0x0000000008004904                IsFifoFull
+ *fill*         0x000000000800491e        0x2 
+ .text          0x0000000008004920      0x22c src/system/timer.o
+                0x0000000008004964                TimerInit
+                0x0000000008004972                TimerStart
+                0x0000000008004a04                TimerIrqHandler
+                0x0000000008004a5c                TimerStop
+                0x0000000008004ae4                TimerReset
+                0x0000000008004af6                TimerSetValue
+                0x0000000008004b06                TimerGetValue
+                0x0000000008004b0a                TimerGetCurrentTime
+                0x0000000008004b0e                TimerGetElapsedTime
+                0x0000000008004b12                TimerGetFutureTime
+                0x0000000008004b16                TimerLowPowerHandler
+ .text          0x0000000008004b4c       0x1c src/system/delay.o
+                0x0000000008004b4c                Delay
+                0x0000000008004b64                DelayMs
+ .text          0x0000000008004b68       0x6c src/system/gpio.o
+                0x0000000008004b68                GpioInit
+                0x0000000008004b82                GpioSetInterrupt
+                0x0000000008004b9a                GpioRemoveInterrupt
+                0x0000000008004b9c                GpioWrite
+                0x0000000008004bae                GpioToggle
+                0x0000000008004bc0                GpioRead
+ .text          0x0000000008004bd4       0x40 src/system/adc.o
+                0x0000000008004bd4                AdcInit
+                0x0000000008004bf4                AdcDeInit
+                0x0000000008004c00                AdcReadChannel
+ *fill*         0x0000000008004c14        0x4 
+ .text          0x0000000008004c18      0xbf0 src/system/gps.o
+                0x0000000008004c18                GpsPpsHandler
+                0x0000000008004c40                GpsInit
+                0x0000000008004c50                GpsStart
+                0x0000000008004c54                GpsStop
+                0x0000000008004c58                GpsProcess
+                0x0000000008004c5c                GpsGetPpsDetectedState
+                0x0000000008004c78                GpsHasFix
+                0x0000000008004c9c                GpsConvertPositionIntoBinary
+                0x0000000008004d20                GpsConvertPositionFromStringToNumerical
+                0x0000000008004f9c                GpsConvertHDOPFromStringToNumerical
+                0x0000000008005054                GpsConvertAltitudeFromStringToNumerical
+                0x000000000800510c                GpsGetLatestGpsAltitude
+                0x000000000800515c                GpsGetLatestGpsHdop
+                0x000000000800519c                GpsGetLatestGpsdAltitude
+                0x00000000080051dc                GpsNmeaChecksum
+                0x0000000008005222                GpsFormatGpsData
+                0x0000000008005288                GpsParseGpsData
+                0x0000000008005768                GpsResetPosition
+                0x0000000008005790                GpsGetLatestGpsPositionDouble
+                0x00000000080057cc                GpsGetLatestGpsPositionBinary
+ .text          0x0000000008005808      0x118 src/system/i2c.o
+                0x0000000008005808                I2cInit
+                0x0000000008005838                I2cDeInit
+                0x0000000008005848                I2cResetBus
+                0x000000000800585c                I2cWrite
+                0x00000000080058a0                I2cWriteBuffer
+                0x00000000080058e4                I2cRead
+                0x0000000008005900                I2cReadBuffer
+ .text          0x0000000008005920      0x234 src/system/crypto/cmac.o
+                0x0000000008005920                AES_CMAC_Init
+                0x0000000008005940                AES_CMAC_SetKey
+                0x000000000800594c                AES_CMAC_Update
+                0x0000000008005a08                AES_CMAC_Final
+ .text          0x0000000008005b54      0x590 src/system/crypto/aes.o
+                0x0000000008005c5a                aes_set_key
+                0x0000000008005d54                aes_encrypt
+                0x0000000008006054                aes_cbc_encrypt
+ .text          0x00000000080060e4     0x21b8 src/mac/LoRaMac.o
+                0x0000000008006e0c                PrepareFrame
+                0x0000000008007170                SendFrameOnChannel
+                0x000000000800738c                Send
+                0x00000000080076b4                SetTxContinuousWave
+                0x0000000008007710                SetTxContinuousWave1
+                0x000000000800774c                rw_Region2Str
+                0x0000000008007764                LoRaMacInitialization
+                0x0000000008007a14                LoRaMacQueryTxPossible
+                0x0000000008007af0                LoRaMacMibGetRequestConfirm
+                0x0000000008007c1c                LoRaMacMibSetRequestConfirm
+                0x0000000008007ee8                LoRaMacChannelAdd
+                0x0000000008007f1c                LoRaMacChannelRemove
+                0x0000000008007f50                LoRaMacMulticastChannelLink
+                0x0000000008007f84                LoRaMacMulticastChannelUnlink
+                0x0000000008007fc0                LoRaMacMlmeRequest
+                0x000000000800811c                LoRaMacMcpsRequest
+                0x0000000008008250                LoRaMacTestRxWindowsOn
+                0x000000000800825c                LoRaMacTestSetMic
+                0x000000000800826c                LoRaMacTestSetDutyCycleOn
+                0x0000000008008290                LoRaMacTestSetChannel
+ .text          0x000000000800829c      0x18c src/mac/region/Region.o
+                0x000000000800829c                RegionIsActive
+                0x00000000080082a4                RegionGetPhyParam
+                0x00000000080082b2                RegionSetBandTxDone
+                0x00000000080082be                RegionInitDefaults
+                0x00000000080082ca                RegionVerify
+                0x00000000080082dc                RegionApplyCFList
+                0x00000000080082e8                RegionChanMaskSet
+                0x00000000080082f6                RegionAdrNext
+                0x0000000008008312                RegionComputeRxWindowParameters
+                0x000000000800832c                RegionRxConfig
+                0x000000000800833e                RegionTxConfig
+                0x0000000008008358                RegionLinkAdrReq
+                0x0000000008008378                RegionRxParamSetupReq
+                0x0000000008008386                RegionNewChannelReq
+                0x0000000008008394                RegionTxParamSetupReq
+                0x00000000080083a2                RegionDlChannelReq
+                0x00000000080083b0                RegionAlternateDr
+                0x00000000080083be                RegionCalcBackOff
+                0x00000000080083ca                RegionNextChannel
+                0x00000000080083e6                RegionChannelAdd
+                0x00000000080083f4                RegionChannelsRemove
+                0x0000000008008402                RegionSetContinuousWave
+                0x000000000800840e                RegionApplyDrOffset
+ .text          0x0000000008008428      0xabc src/mac/region/RegionEU868.o
+                0x00000000080084c0                RegionEU868GetPhyParam
+                0x0000000008008584                RegionEU868SetBandTxDone
+                0x00000000080085a8                RegionEU868InitDefaults
+                0x0000000008008604                RegionEU868Verify
+                0x000000000800864a                RegionEU868ChanMaskSet
+                0x0000000008008678                RegionEU868AdrNext
+                0x00000000080086f0                RegionEU868ComputeRxWindowParameters
+                0x0000000008008768                RegionEU868RxConfig
+                0x0000000008008848                RegionEU868TxConfig
+                0x0000000008008950                RegionEU868LinkAdrReq
+                0x0000000008008a8c                RegionEU868RxParamSetupReq
+                0x0000000008008ad0                RegionEU868TxParamSetupReq
+                0x0000000008008ad6                RegionEU868DlChannelReq
+                0x0000000008008b18                RegionEU868AlternateDr
+                0x0000000008008b56                RegionEU868CalcBackOff
+                0x0000000008008b94                RegionEU868NextChannel
+                0x0000000008008cc4                RegionEU868ChannelAdd
+                0x0000000008008da4                RegionEU868ChannelsRemove
+                0x0000000008008dd0                RegionEU868ApplyCFList
+                0x0000000008008e46                RegionEU868NewChannelReq
+                0x0000000008008e8e                RegionEU868SetContinuousWave
+                0x0000000008008ed8                RegionEU868ApplyDrOffset
+ .text          0x0000000008008ee4      0x3f4 src/mac/region/RegionCommon.o
+                0x0000000008008ee4                RegionCommonGetJoinDc
+                0x0000000008008f08                RegionCommonChanVerifyDr
+                0x0000000008008f6e                RegionCommonValueInRange
+                0x0000000008008f80                RegionCommonChanDisable
+                0x0000000008008fac                RegionCommonCountChannels
+                0x0000000008008fec                RegionCommonChanMaskCopy
+                0x000000000800900a                RegionCommonSetBandTxDone
+                0x0000000008009014                RegionCommonUpdateBandTimeOff
+                0x00000000080090b0                RegionCommonParseLinkAdrReq
+                0x00000000080090e4                RegionCommonLinkAdrReqVerifyParams
+                0x0000000008009172                RegionCommonComputeSymbolTimeLoRa
+                0x00000000080091a4                RegionCommonComputeSymbolTimeFsk
+                0x00000000080091bc                RegionCommonComputeRxWindowParameters
+                0x0000000008009268                RegionCommonComputeTxPower
+                0x0000000008009292                RegionCommonCalcBackOff
+ .text          0x00000000080092d8      0x288 src/mac/LoRaMacCrypto.o
+                0x00000000080092d8                LoRaMacComputeMic
+                0x000000000800934c                LoRaMacPayloadEncrypt
+                0x000000000800943c                LoRaMacPayloadDecrypt
+                0x000000000800944a                LoRaMacJoinComputeMic
+                0x0000000008009488                LoRaMacJoinDecrypt
+                0x00000000080094cc                LoRaMacJoinComputeSKeys
+ .text          0x0000000008009560       0x9c src/boards/mcu/stm32/utilities.o
+                0x0000000008009560                rand1
+                0x0000000008009588                srand1
+                0x0000000008009594                randr
+                0x00000000080095ae                memcpy1
+                0x00000000080095c2                memcpyr
+                0x00000000080095d6                memset1
+                0x00000000080095e4                Nibble2HexChar
+ .text          0x00000000080095fc      0xb8c src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+                0x0000000008009670                HAL_RCC_DeInit
+                0x00000000080096e0                HAL_RCC_OscConfig
+                0x0000000008009d58                HAL_RCC_MCOConfig
+                0x0000000008009da8                HAL_RCC_EnableCSS
+                0x0000000008009dc4                HAL_RCC_DisableCSS
+                0x0000000008009de0                HAL_RCC_GetSysClockFreq
+                0x0000000008009e6c                HAL_RCC_ClockConfig
+                0x000000000800a004                HAL_RCC_GetHCLKFreq
+                0x000000000800a010                HAL_RCC_GetPCLK1Freq
+                0x000000000800a040                HAL_RCC_GetPCLK2Freq
+                0x000000000800a070                HAL_RCC_GetOscConfig
+                0x000000000800a12c                HAL_RCC_GetClockConfig
+                0x000000000800a168                HAL_RCC_CSSCallback
+                0x000000000800a16a                HAL_RCC_NMI_IRQHandler
+ .text          0x000000000800a188      0x9f8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+                0x000000000800a188                HAL_ADC_MspInit
+                0x000000000800a18a                HAL_ADC_Init
+                0x000000000800a308                HAL_ADC_MspDeInit
+                0x000000000800a30a                HAL_ADC_PollForConversion
+                0x000000000800a3ae                HAL_ADC_PollForEvent
+                0x000000000800a414                HAL_ADC_GetValue
+                0x000000000800a41a                HAL_ADC_ConvCpltCallback
+                0x000000000800a47c                HAL_ADC_ConvHalfCpltCallback
+                0x000000000800a488                HAL_ADC_LevelOutOfWindowCallback
+                0x000000000800a48a                HAL_ADC_ErrorCallback
+                0x000000000800a4a6                HAL_ADC_IRQHandler
+                0x000000000800a5c8                HAL_ADC_ConfigChannel
+                0x000000000800a71c                HAL_ADC_AnalogWDGConfig
+                0x000000000800a770                HAL_ADC_GetState
+                0x000000000800a774                HAL_ADC_GetError
+                0x000000000800a778                ADC_Enable
+                0x000000000800a7ec                HAL_ADC_Start
+                0x000000000800a85a                HAL_ADC_Start_IT
+                0x000000000800a8d6                HAL_ADC_Start_DMA
+                0x000000000800a998                ADC_ConversionStop_Disable
+                0x000000000800a9dc                HAL_ADC_DeInit
+                0x000000000800aab8                HAL_ADC_Stop
+                0x000000000800aaec                HAL_ADC_Stop_IT
+                0x000000000800ab2a                HAL_ADC_Stop_DMA
+ .text          0x000000000800ab80     0x27dc src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+                0x000000000800aef6                HAL_I2C_MspInit
+                0x000000000800aef8                HAL_I2C_Init
+                0x000000000800b014                HAL_I2C_MspDeInit
+                0x000000000800b016                HAL_I2C_DeInit
+                0x000000000800b048                HAL_I2C_Master_Transmit
+                0x000000000800b1f0                HAL_I2C_Master_Receive
+                0x000000000800b4d4                HAL_I2C_Slave_Transmit
+                0x000000000800b62c                HAL_I2C_Slave_Receive
+                0x000000000800b7a4                HAL_I2C_Master_Transmit_IT
+                0x000000000800b84c                HAL_I2C_Master_Receive_IT
+                0x000000000800b8fc                HAL_I2C_Master_Sequential_Transmit_IT
+                0x000000000800b9c8                HAL_I2C_Master_Sequential_Receive_IT
+                0x000000000800baa0                HAL_I2C_Slave_Transmit_IT
+                0x000000000800bb18                HAL_I2C_Slave_Receive_IT
+                0x000000000800bb8c                HAL_I2C_Slave_Sequential_Transmit_IT
+                0x000000000800bc04                HAL_I2C_Slave_Sequential_Receive_IT
+                0x000000000800bc7c                HAL_I2C_EnableListen_IT
+                0x000000000800bcb2                HAL_I2C_DisableListen_IT
+                0x000000000800bcf0                HAL_I2C_Master_Transmit_DMA
+                0x000000000800bdf0                HAL_I2C_Master_Receive_DMA
+                0x000000000800bef0                HAL_I2C_Slave_Transmit_DMA
+                0x000000000800bf98                HAL_I2C_Slave_Receive_DMA
+                0x000000000800c040                HAL_I2C_Mem_Write
+                0x000000000800c178                HAL_I2C_Mem_Read
+                0x000000000800c388                HAL_I2C_Mem_Write_IT
+                0x000000000800c450                HAL_I2C_Mem_Read_IT
+                0x000000000800c57c                HAL_I2C_Mem_Write_DMA
+                0x000000000800c678                HAL_I2C_Mem_Read_DMA
+                0x000000000800c78c                HAL_I2C_IsDeviceReady
+                0x000000000800c8d0                HAL_I2C_MasterTxCpltCallback
+                0x000000000800c8d2                HAL_I2C_MasterRxCpltCallback
+                0x000000000800c8d4                HAL_I2C_SlaveTxCpltCallback
+                0x000000000800c8d6                HAL_I2C_SlaveRxCpltCallback
+                0x000000000800c8d8                HAL_I2C_AddrCallback
+                0x000000000800c8da                HAL_I2C_ListenCpltCallback
+                0x000000000800c8dc                HAL_I2C_MemTxCpltCallback
+                0x000000000800c8de                HAL_I2C_MemRxCpltCallback
+                0x000000000800c8e0                HAL_I2C_ErrorCallback
+                0x000000000800c98c                HAL_I2C_AbortCpltCallback
+                0x000000000800cab4                HAL_I2C_Master_Abort_IT
+                0x000000000800cb00                HAL_I2C_EV_IRQHandler
+                0x000000000800d1bc                HAL_I2C_ER_IRQHandler
+                0x000000000800d34c                HAL_I2C_GetState
+                0x000000000800d352                HAL_I2C_GetMode
+                0x000000000800d358                HAL_I2C_GetError
+ .text          0x000000000800d35c      0x140 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+                0x000000000800d35c                HAL_MspInit
+                0x000000000800d35e                HAL_MspDeInit
+                0x000000000800d360                HAL_DeInit
+                0x000000000800d384                HAL_InitTick
+                0x000000000800d3ac                HAL_Init
+                0x000000000800d3c2                HAL_IncTick
+                0x000000000800d3d0                HAL_GetTick
+                0x000000000800d3dc                HAL_Delay
+                0x000000000800d3f6                HAL_SuspendTick
+                0x000000000800d408                HAL_ResumeTick
+                0x000000000800d418                HAL_GetHalVersion
+                0x000000000800d41e                HAL_GetREVID
+                0x000000000800d42c                HAL_GetDEVID
+                0x000000000800d43c                HAL_DBGMCU_EnableDBGSleepMode
+                0x000000000800d44c                HAL_DBGMCU_DisableDBGSleepMode
+                0x000000000800d45c                HAL_DBGMCU_EnableDBGStopMode
+                0x000000000800d46c                HAL_DBGMCU_DisableDBGStopMode
+                0x000000000800d47c                HAL_DBGMCU_EnableDBGStandbyMode
+                0x000000000800d48c                HAL_DBGMCU_DisableDBGStandbyMode
+ .text          0x000000000800d49c      0x1e4 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+                0x000000000800d49c                HAL_RCCEx_PeriphCLKConfig
+                0x000000000800d5d8                HAL_RCCEx_GetPeriphCLKConfig
+                0x000000000800d5fc                HAL_RCCEx_GetPeriphCLKFreq
+ .text          0x000000000800d680      0x470 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+                0x000000000800d680                HAL_ADCEx_InjectedStart
+                0x000000000800d6dc                HAL_ADCEx_InjectedStop
+                0x000000000800d72a                HAL_ADCEx_InjectedPollForConversion
+                0x000000000800d838                HAL_ADCEx_InjectedStart_IT
+                0x000000000800d89c                HAL_ADCEx_InjectedStop_IT
+                0x000000000800d8f4                HAL_ADCEx_InjectedGetValue
+                0x000000000800d912                HAL_ADCEx_InjectedConvCpltCallback
+                0x000000000800d914                HAL_ADCEx_InjectedConfigChannel
+ .text          0x000000000800daf0      0x3f4 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+                0x000000000800daf0                HAL_DMA_Init
+                0x000000000800db5c                HAL_DMA_DeInit
+                0x000000000800dba8                HAL_DMA_Start
+                0x000000000800dc06                HAL_DMA_Start_IT
+                0x000000000800dc82                HAL_DMA_Abort
+                0x000000000800dcae                HAL_DMA_Abort_IT
+                0x000000000800dcf6                HAL_DMA_PollForTransfer
+                0x000000000800ddb6                HAL_DMA_IRQHandler
+                0x000000000800de46                HAL_DMA_RegisterCallback
+                0x000000000800de8c                HAL_DMA_UnRegisterCallback
+                0x000000000800deda                HAL_DMA_GetState
+                0x000000000800dee0                HAL_DMA_GetError
+ .text          0x000000000800dee4       0x72 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+                0x000000000800dee4                HAL_SPI_Init
+ *fill*         0x000000000800df56        0x2 
+ .text          0x000000000800df58       0xe4 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+                0x000000000800df58                HAL_PWREx_GetVoltageRange
+                0x000000000800df68                HAL_PWREx_EnableFastWakeUp
+                0x000000000800df84                HAL_PWREx_DisableFastWakeUp
+                0x000000000800dfa0                HAL_PWREx_EnableUltraLowPower
+                0x000000000800dfbc                HAL_PWREx_DisableUltraLowPower
+                0x000000000800dfd8                HAL_PWREx_EnableLowPowerRunMode
+                0x000000000800e008                HAL_PWREx_DisableLowPowerRunMode
+ .text          0x000000000800e03c      0x2f0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+                0x000000000800e03c                HAL_GPIO_Init
+                0x000000000800e1d8                HAL_GPIO_DeInit
+                0x000000000800e2cc                HAL_GPIO_ReadPin
+                0x000000000800e2d8                HAL_GPIO_WritePin
+                0x000000000800e2e2                HAL_GPIO_TogglePin
+                0x000000000800e2ea                HAL_GPIO_LockPin
+                0x000000000800e316                HAL_GPIO_EXTI_IRQHandler
+ .text          0x000000000800e32c      0x264 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+                0x000000000800e32c                HAL_NVIC_SetPriorityGrouping
+                0x000000000800e350                HAL_NVIC_SetPriority
+                0x000000000800e3b8                HAL_NVIC_EnableIRQ
+                0x000000000800e3d0                HAL_NVIC_DisableIRQ
+                0x000000000800e3ec                HAL_NVIC_SystemReset
+                0x000000000800e410                HAL_SYSTICK_Config
+                0x000000000800e43c                HAL_MPU_ConfigRegion
+                0x000000000800e48c                HAL_NVIC_GetPriorityGrouping
+                0x000000000800e49c                HAL_NVIC_GetPriority
+                0x000000000800e4fc                HAL_NVIC_SetPendingIRQ
+                0x000000000800e518                HAL_NVIC_GetPendingIRQ
+                0x000000000800e534                HAL_NVIC_ClearPendingIRQ
+                0x000000000800e550                HAL_NVIC_GetActive
+                0x000000000800e56c                HAL_SYSTICK_CLKSourceConfig
+                0x000000000800e584                HAL_SYSTICK_Callback
+                0x000000000800e586                HAL_SYSTICK_IRQHandler
+ .text          0x000000000800e590      0x3d4 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+                0x000000000800e594                HAL_RTC_MspInit
+                0x000000000800e596                HAL_RTC_MspDeInit
+                0x000000000800e598                HAL_RTC_DeactivateAlarm
+                0x000000000800e632                HAL_RTC_AlarmAEventCallback
+                0x000000000800e634                HAL_RTC_AlarmIRQHandler
+                0x000000000800e688                HAL_RTC_PollForAlarmAEvent
+                0x000000000800e6c6                HAL_RTC_GetState
+                0x000000000800e6ca                RTC_EnterInitMode
+                0x000000000800e6fe                HAL_RTC_Init
+                0x000000000800e782                RTC_ByteToBcd2
+                0x000000000800e798                HAL_RTC_SetTime
+                0x000000000800e86a                HAL_RTC_SetDate
+                0x000000000800e914                RTC_Bcd2ToByte
+                0x000000000800e924                HAL_RTC_GetDate
+ .text          0x000000000800e964      0xb6c src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+                0x000000000800e964                HAL_RTC_GetTime
+                0x000000000800e9a4                HAL_RTC_SetAlarm
+                0x000000000800eade                HAL_RTC_SetAlarm_IT
+                0x000000000800ec44                HAL_RTC_GetAlarm
+                0x000000000800ecb0                HAL_RTC_WaitForSynchro
+                0x000000000800ece0                HAL_RTC_DeInit
+                0x000000000800ed7c                HAL_RTCEx_SetTimeStamp
+                0x000000000800edb8                HAL_RTCEx_SetTimeStamp_IT
+                0x000000000800ee14                HAL_RTCEx_DeactivateTimeStamp
+                0x000000000800ee4e                HAL_RTCEx_GetTimeStamp
+                0x000000000800eed6                HAL_RTCEx_SetTamper
+                0x000000000800ef04                HAL_RTCEx_SetTamper_IT
+                0x000000000800ef50                HAL_RTCEx_DeactivateTamper
+                0x000000000800ef72                HAL_RTCEx_TimeStampEventCallback
+                0x000000000800ef74                HAL_RTCEx_Tamper1EventCallback
+                0x000000000800ef76                HAL_RTCEx_TamperTimeStampIRQHandler
+                0x000000000800efcc                HAL_RTCEx_PollForTimeStampEvent
+                0x000000000800f018                HAL_RTCEx_PollForTamper1Event
+                0x000000000800f056                HAL_RTCEx_SetWakeUpTimer
+                0x000000000800f108                HAL_RTCEx_SetWakeUpTimer_IT
+                0x000000000800f1e4                HAL_RTCEx_DeactivateWakeUpTimer
+                0x000000000800f24a                HAL_RTCEx_GetWakeUpTimer
+                0x000000000800f252                HAL_RTCEx_WakeUpTimerEventCallback
+                0x000000000800f254                HAL_RTCEx_WakeUpTimerIRQHandler
+                0x000000000800f284                HAL_RTCEx_PollForWakeUpTimerEvent
+                0x000000000800f2c2                HAL_RTCEx_BKUPWrite
+                0x000000000800f2cc                HAL_RTCEx_BKUPRead
+                0x000000000800f2d6                HAL_RTCEx_SetCoarseCalib
+                0x000000000800f338                HAL_RTCEx_DeactivateCoarseCalib
+                0x000000000800f38c                HAL_RTCEx_SetCalibrationOutPut
+                0x000000000800f3ba                HAL_RTCEx_DeactivateCalibrationOutPut
+                0x000000000800f3e8                HAL_RTCEx_SetRefClock
+                0x000000000800f43c                HAL_RTCEx_DeactivateRefClock
+                0x000000000800f490                HAL_RTCEx_AlarmBEventCallback
+                0x000000000800f492                HAL_RTCEx_PollForAlarmBEvent
+ .text          0x000000000800f4d0      0xb9c src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+                0x000000000800f778                HAL_UART_MspInit
+                0x000000000800f77a                HAL_UART_Init
+                0x000000000800f7d2                HAL_HalfDuplex_Init
+                0x000000000800f832                HAL_LIN_Init
+                0x000000000800f89e                HAL_MultiProcessor_Init
+                0x000000000800f90e                HAL_UART_MspDeInit
+                0x000000000800f910                HAL_UART_DeInit
+                0x000000000800f944                HAL_UART_Transmit
+                0x000000000800f9fa                HAL_UART_Receive
+                0x000000000800fabe                HAL_UART_Transmit_IT
+                0x000000000800fb12                HAL_UART_Receive_IT
+                0x000000000800fb76                HAL_UART_Transmit_DMA
+                0x000000000800fbf8                HAL_UART_Receive_DMA
+                0x000000000800fc74                HAL_UART_DMAPause
+                0x000000000800fcce                HAL_UART_DMAResume
+                0x000000000800fd42                HAL_UART_DMAStop
+                0x000000000800fd98                HAL_UART_TxHalfCpltCallback
+                0x000000000800fdd8                HAL_UART_RxHalfCpltCallback
+                0x000000000800fe04                HAL_UART_IRQHandler
+                0x000000000800ff86                HAL_LIN_SendBreak
+                0x000000000800ffb0                HAL_MultiProcessor_EnterMuteMode
+                0x000000000800ffda                HAL_MultiProcessor_ExitMuteMode
+                0x0000000008010004                HAL_HalfDuplex_EnableTransmitter
+                0x0000000008010032                HAL_HalfDuplex_EnableReceiver
+                0x0000000008010060                HAL_UART_GetState
+                0x0000000008010066                HAL_UART_GetError
+ .text          0x000000000801006c      0x204 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+                0x000000000801006c                HAL_PWR_DeInit
+                0x0000000008010084                HAL_PWR_EnableBkUpAccess
+                0x00000000080100a0                HAL_PWR_DisableBkUpAccess
+                0x00000000080100bc                HAL_PWR_ConfigPVD
+                0x0000000008010128                HAL_PWR_EnablePVD
+                0x0000000008010142                HAL_PWR_DisablePVD
+                0x000000000801015c                HAL_PWR_EnableWakeUpPin
+                0x0000000008010174                HAL_PWR_DisableWakeUpPin
+                0x000000000801018c                HAL_PWR_EnterSLEEPMode
+                0x00000000080101bc                HAL_PWR_EnterSTOPMode
+                0x00000000080101f4                HAL_PWR_EnterSTANDBYMode
+                0x0000000008010214                HAL_PWR_EnableSleepOnExit
+                0x0000000008010224                HAL_PWR_DisableSleepOnExit
+                0x0000000008010234                HAL_PWR_EnableSEVOnPend
+                0x0000000008010244                HAL_PWR_DisableSEVOnPend
+                0x0000000008010254                HAL_PWR_PVDCallback
+                0x0000000008010256                HAL_PWR_PVD_IRQHandler
+ .text          0x0000000008010270     0x10e0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+                0x0000000008010302                HAL_SPI_MspInit
+                0x0000000008010304                HAL_SPI_MspDeInit
+                0x0000000008010306                HAL_SPI_DeInit
+                0x000000000801032c                HAL_SPI_Transmit
+                0x0000000008010490                HAL_SPI_TransmitReceive
+                0x000000000801075e                HAL_SPI_Receive
+                0x000000000801093a                HAL_SPI_Transmit_IT
+                0x00000000080109d8                HAL_SPI_TransmitReceive_IT
+                0x0000000008010a88                HAL_SPI_Receive_IT
+                0x0000000008010b3c                HAL_SPI_Transmit_DMA
+                0x0000000008010bf0                HAL_SPI_TransmitReceive_DMA
+                0x0000000008010cf4                HAL_SPI_Receive_DMA
+                0x0000000008010dcc                HAL_SPI_DMAPause
+                0x0000000008010df4                HAL_SPI_DMAResume
+                0x0000000008010e1c                HAL_SPI_DMAStop
+                0x0000000008010e4c                HAL_SPI_TxCpltCallback
+                0x0000000008010e4e                HAL_SPI_RxCpltCallback
+                0x0000000008010e50                HAL_SPI_TxRxCpltCallback
+                0x0000000008010e52                HAL_SPI_TxHalfCpltCallback
+                0x0000000008010e5e                HAL_SPI_RxHalfCpltCallback
+                0x0000000008010e6a                HAL_SPI_TxRxHalfCpltCallback
+                0x0000000008010e76                HAL_SPI_ErrorCallback
+                0x0000000008011288                HAL_SPI_IRQHandler
+                0x0000000008011344                HAL_SPI_GetState
+                0x000000000801134a                HAL_SPI_GetError
+ .text          0x0000000008011350      0x378 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008011350                __aeabi_drsub
+                0x0000000008011358                __aeabi_dsub
+                0x0000000008011358                __subdf3
+                0x000000000801135c                __adddf3
+                0x000000000801135c                __aeabi_dadd
+                0x00000000080115d4                __aeabi_ui2d
+                0x00000000080115d4                __floatunsidf
+                0x00000000080115f4                __floatsidf
+                0x00000000080115f4                __aeabi_i2d
+                0x0000000008011618                __extendsfdf2
+                0x0000000008011618                __aeabi_f2d
+                0x000000000801165c                __aeabi_ul2d
+                0x000000000801165c                __floatundidf
+                0x000000000801166c                __floatdidf
+                0x000000000801166c                __aeabi_l2d
+ .text          0x00000000080116c8      0x424 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+                0x00000000080116c8                __aeabi_dmul
+                0x00000000080116c8                __muldf3
+                0x000000000801191c                __aeabi_ddiv
+                0x000000000801191c                __divdf3
+ .text          0x0000000008011aec      0x110 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008011aec                __gtdf2
+                0x0000000008011aec                __gedf2
+                0x0000000008011af4                __ltdf2
+                0x0000000008011af4                __ledf2
+                0x0000000008011afc                __cmpdf2
+                0x0000000008011afc                __eqdf2
+                0x0000000008011afc                __nedf2
+                0x0000000008011b78                __aeabi_cdrcmple
+                0x0000000008011b88                __aeabi_cdcmple
+                0x0000000008011b88                __aeabi_cdcmpeq
+                0x0000000008011b98                __aeabi_dcmpeq
+                0x0000000008011bac                __aeabi_dcmplt
+                0x0000000008011bc0                __aeabi_dcmple
+                0x0000000008011bd4                __aeabi_dcmpge
+                0x0000000008011be8                __aeabi_dcmpgt
+ .text          0x0000000008011bfc       0x50 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+                0x0000000008011bfc                __fixdfsi
+                0x0000000008011bfc                __aeabi_d2iz
+ .text          0x0000000008011c4c       0x40 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000008011c4c                __fixunsdfsi
+                0x0000000008011c4c                __aeabi_d2uiz
+ .text          0x0000000008011c8c      0x21c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008011c8c                __aeabi_frsub
+                0x0000000008011c94                __subsf3
+                0x0000000008011c94                __aeabi_fsub
+                0x0000000008011c98                __aeabi_fadd
+                0x0000000008011c98                __addsf3
+                0x0000000008011df8                __aeabi_ui2f
+                0x0000000008011df8                __floatunsisf
+                0x0000000008011e00                __aeabi_i2f
+                0x0000000008011e00                __floatsisf
+                0x0000000008011e1c                __floatundisf
+                0x0000000008011e1c                __aeabi_ul2f
+                0x0000000008011e2c                __floatdisf
+                0x0000000008011e2c                __aeabi_l2f
+ .text          0x0000000008011ea8      0x2a0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+                0x0000000008011ea8                __mulsf3
+                0x0000000008011ea8                __aeabi_fmul
+                0x0000000008012010                __divsf3
+                0x0000000008012010                __aeabi_fdiv
+ .text          0x0000000008012148       0x40 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+                0x0000000008012148                __aeabi_f2uiz
+                0x0000000008012148                __fixunssfsi
+ *(.text*)
+ .text.startup  0x0000000008012188      0x5c8 src/apps/classA/main.o
+                0x0000000008012188                main
+ .text.Reset_Handler
+                0x0000000008012750       0x48 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+                0x0000000008012750                Reset_Handler
+ .text.Default_Handler
+                0x0000000008012798        0x2 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+                0x0000000008012798                HardFault_Handler
+                0x0000000008012798                TIM10_IRQHandler
+                0x0000000008012798                USB_HP_IRQHandler
+                0x0000000008012798                TIM6_IRQHandler
+                0x0000000008012798                PVD_IRQHandler
+                0x0000000008012798                PendSV_Handler
+                0x0000000008012798                I2C2_EV_IRQHandler
+                0x0000000008012798                SPI1_IRQHandler
+                0x0000000008012798                USB_FS_WKUP_IRQHandler
+                0x0000000008012798                DMA1_Channel4_IRQHandler
+                0x0000000008012798                ADC1_IRQHandler
+                0x0000000008012798                DMA1_Channel7_IRQHandler
+                0x0000000008012798                TIM4_IRQHandler
+                0x0000000008012798                I2C1_EV_IRQHandler
+                0x0000000008012798                DMA1_Channel6_IRQHandler
+                0x0000000008012798                TIM3_IRQHandler
+                0x0000000008012798                RCC_IRQHandler
+                0x0000000008012798                DMA1_Channel1_IRQHandler
+                0x0000000008012798                Default_Handler
+                0x0000000008012798                TIM7_IRQHandler
+                0x0000000008012798                TIM9_IRQHandler
+                0x0000000008012798                TAMPER_STAMP_IRQHandler
+                0x0000000008012798                RTC_WKUP_IRQHandler
+                0x0000000008012798                SPI2_IRQHandler
+                0x0000000008012798                SVC_Handler
+                0x0000000008012798                DMA1_Channel5_IRQHandler
+                0x0000000008012798                USB_LP_IRQHandler
+                0x0000000008012798                DMA1_Channel3_IRQHandler
+                0x0000000008012798                COMP_IRQHandler
+                0x0000000008012798                WWDG_IRQHandler
+                0x0000000008012798                TIM2_IRQHandler
+                0x0000000008012798                DAC_IRQHandler
+                0x0000000008012798                TIM11_IRQHandler
+                0x0000000008012798                USART2_IRQHandler
+                0x0000000008012798                I2C2_ER_IRQHandler
+                0x0000000008012798                DMA1_Channel2_IRQHandler
+                0x0000000008012798                FLASH_IRQHandler
+                0x0000000008012798                I2C1_ER_IRQHandler
+ .text.atoi     0x000000000801279a        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+                0x000000000801279a                atoi
+ *fill*         0x00000000080127a2        0x2 
+ .text.__libc_init_array
+                0x00000000080127a4       0x48 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+                0x00000000080127a4                __libc_init_array
+ .text.memset   0x00000000080127ec       0x10 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+                0x00000000080127ec                memset
+ .text.strncmp  0x00000000080127fc       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+                0x00000000080127fc                strncmp
+ .text._strtol_l.isra.0
+                0x0000000008012820       0xf6 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ *fill*         0x0000000008012916        0x2 
+ .text.strtol   0x0000000008012918       0x2c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+                0x0000000008012918                strtol
+ .text.__locale_ctype_ptr_l
+                0x0000000008012944        0x6 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+                0x0000000008012944                __locale_ctype_ptr_l
+ .text.__ascii_mbtowc
+                0x000000000801294a       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+                0x000000000801294a                __ascii_mbtowc
+ .text.__ascii_wctomb
+                0x000000000801296e       0x1a /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+                0x000000000801296e                __ascii_wctomb
+ .text.ceil     0x0000000008012988      0x110 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_ceil.o)
+                0x0000000008012988                ceil
+ .text.floor    0x0000000008012a98      0x108 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+                0x0000000008012a98                floor
+ .text.round    0x0000000008012ba0       0x9c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_round.o)
+                0x0000000008012ba0                round
+ *(.glue_7)
+ .glue_7        0x0000000008012c3c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008012c3c        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008012c3c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ *(.init)
+ .init          0x0000000008012c3c        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x0000000008012c3c                _init
+ .init          0x0000000008012c40        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ *(.fini)
+ .fini          0x0000000008012c48        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x0000000008012c48                _fini
+ .fini          0x0000000008012c4c        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x0000000008012c54                . = ALIGN (0x4)
+                0x0000000008012c54                _etext = .
+
+.vfp11_veneer   0x0000000008012c54        0x0
+ .vfp11_veneer  0x0000000008012c54        0x0 linker stubs
+
+.v4_bx          0x0000000008012c54        0x0
+ .v4_bx         0x0000000008012c54        0x0 linker stubs
+
+.iplt           0x0000000008012c54        0x0
+ .iplt          0x0000000008012c54        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+
+.rodata         0x0000000008012c58      0x874
+                0x0000000008012c58                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0000000008012c58       0xf8 src/radio/sx1276/sx1276.o
+                0x0000000008012c58                FskBandwidths
+                0x0000000008012d20                RadioRegsInit
+ .rodata        0x0000000008012d50       0x18 src/boards/RAK811BreakBoard/rtc-board.o
+ .rodata        0x0000000008012d68       0x21 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+                0x0000000008012d68                PLLMulTable
+                0x0000000008012d71                AHBPrescTable
+                0x0000000008012d81                APBPrescTable
+ *fill*         0x0000000008012d89        0x3 
+ .rodata        0x0000000008012d8c       0x5c src/boards/RAK811BreakBoard/sx1276-board.o
+                0x0000000008012d8c                Radio
+ .rodata        0x0000000008012de8        0x4 src/boards/RAK811BreakBoard/gpio-board.o
+ .rodata        0x0000000008012dec       0x28 src/system/gps.o
+                0x0000000008012dec                NmeaDataTypeGPGGA
+                0x0000000008012df2                NmeaDataTypeGPRMC
+                0x0000000008012df8                MaxWestPosition
+                0x0000000008012dfc                MaxEastPosition
+                0x0000000008012e00                MaxSouthPosition
+                0x0000000008012e04                MaxNorthPosition
+                0x0000000008012e08                NmeaDataTypeGPGSV
+                0x0000000008012e0e                NmeaDataTypeGPGSA
+ .rodata        0x0000000008012e14      0x300 src/system/crypto/aes.o
+ .rodata        0x0000000008013114       0x38 src/mac/LoRaMac.o
+ .rodata        0x000000000801314c       0x5c src/mac/region/RegionEU868.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000000080131a8      0x142 src/apps/classA/main.o
+                                        0x145 (size before relaxing)
+ .rodata.str1.1
+                0x00000000080132ea       0x24 src/system/printf.o
+ .rodata.str1.1
+                0x000000000801330e       0x47 src/peripherals/lis3dh.o
+ .rodata.str1.1
+                0x0000000008013355        0x5 src/system/gps.o
+ .rodata.str1.1
+                0x000000000801335a       0x67 src/mac/LoRaMac.o
+                                         0x68 (size before relaxing)
+ .rodata._setlocale_r.str1.1
+                0x00000000080133c1        0x8 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+                                          0x9 (size before relaxing)
+ .rodata.str1.1
+                0x00000000080133c9        0x2 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .rodata._ctype_
+                0x00000000080133cb      0x101 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-ctype_.o)
+                0x00000000080133cb                _ctype_
+                0x00000000080134cc                . = ALIGN (0x4)
+
+.rel.dyn        0x00000000080134cc        0x0
+ .rel.iplt      0x00000000080134cc        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00000000080134cc        0x0
+                0x00000000080134cc                __exidx_start = .
+ *(.ARM.exidx*)
+                0x00000000080134cc                __exidx_end = .
+
+.preinit_array  0x00000000080134cc        0x0
+                0x00000000080134cc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x00000000080134cc                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00000000080134cc        0x4
+                0x00000000080134cc                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00000000080134cc        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x00000000080134d0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00000000080134d0        0x4
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00000000080134d0        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+                0x00000000080134d4                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000      0x2a4 load address 0x00000000080134d4
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ .data          0x0000000020000000       0x23 src/apps/classA/main.o
+ *fill*         0x0000000020000023        0x1 
+ .data          0x0000000020000024       0x18 src/radio/sx1276/sx1276.o
+                0x0000000020000024                DioIrq
+ .data          0x000000002000003c        0x4 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+                0x000000002000003c                SystemCoreClock
+ .data          0x0000000020000040        0x2 src/boards/RAK811BreakBoard/board.o
+ *fill*         0x0000000020000042        0x6 
+ .data          0x0000000020000048       0x12 src/system/gps.o
+ .data          0x000000002000005a        0x3 src/mac/LoRaMac.o
+ *fill*         0x000000002000005d        0x3 
+ .data          0x0000000020000060       0x50 src/mac/region/RegionEU868.o
+ .data          0x00000000200000b0       0x20 src/mac/LoRaMacCrypto.o
+ .data          0x00000000200000d0        0x4 src/boards/mcu/stm32/utilities.o
+ *(.data*)
+ .data._impure_ptr
+                0x00000000200000d4        0x4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                0x00000000200000d4                _impure_ptr
+ .data.impure_data
+                0x00000000200000d8       0x60 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .data.__global_locale
+                0x0000000020000138      0x16c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+                0x0000000020000138                __global_locale
+                0x00000000200002a4                . = ALIGN (0x4)
+                0x00000000200002a4                _edata = .
+
+.igot.plt       0x00000000200002a4        0x0 load address 0x0000000008013778
+ .igot.plt      0x00000000200002a4        0x0 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x00000000200002a4                . = ALIGN (0x4)
+
+.bss            0x00000000200002a8     0x1430 load address 0x0000000008013778
+                0x00000000200002a8                _sbss = .
+                0x00000000200002a8                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x00000000200002a8       0x1c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .bss           0x00000000200002c4      0x138 src/apps/classA/main.o
+                0x00000000200003f7                GPS_GETFAIL
+ .bss           0x00000000200003fc      0x104 src/radio/sx1276/sx1276.o
+ .bss           0x0000000020000500        0x2 src/peripherals/lis3dh.o
+                0x0000000020000500                IntDetected
+ .bss           0x0000000020000502        0x1 src/boards/RAK811BreakBoard/gps-board.o
+                0x0000000020000502                NmeaStringSize
+ *fill*         0x0000000020000503        0x1 
+ .bss           0x0000000020000504       0x30 src/boards/RAK811BreakBoard/rtc-board.o
+                0x0000000020000504                RtcHandle
+                0x000000002000052c                McuWakeUpTime
+                0x0000000020000530                NonScheduledWakeUp
+ .bss           0x0000000020000534        0x1 src/boards/RAK811BreakBoard/sx1276-board.o
+ .bss           0x0000000020000535        0x2 src/boards/RAK811BreakBoard/board.o
+ .bss           0x0000000020000537        0x1 src/boards/RAK811BreakBoard/i2c-board.o
+                0x0000000020000537                I2cInternalAddrSize
+ .bss           0x0000000020000538       0x40 src/boards/RAK811BreakBoard/gpio-board.o
+ .bss           0x0000000020000578        0x8 src/system/timer.o
+                0x0000000020000578                HasLoopedThroughMain
+ .bss           0x0000000020000580        0x1 src/system/adc.o
+ *fill*         0x0000000020000581        0x7 
+ .bss           0x0000000020000588       0x2c src/system/gps.o
+                0x0000000020000588                PpsDetected
+ .bss           0x00000000200005b4        0x1 src/system/i2c.o
+ *fill*         0x00000000200005b5        0x3 
+ .bss           0x00000000200005b8      0x481 src/mac/LoRaMac.o
+                0x00000000200005f0                LoRaMacState
+                0x00000000200009ec                TxTimeOnAir
+ *fill*         0x0000000020000a39        0x3 
+ .bss           0x0000000020000a3c       0xc4 src/mac/region/RegionEU868.o
+ .bss           0x0000000020000b00      0x229 src/mac/LoRaMacCrypto.o
+ *(.bss*)
+ *(COMMON)
+ *fill*         0x0000000020000d29        0x3 
+ COMMON         0x0000000020000d2c       0x14 src/apps/classA/main.o
+                0x0000000020000d2c                ComplianceTest
+ COMMON         0x0000000020000d40      0x188 src/radio/sx1276/sx1276.o
+                0x0000000020000d40                TxTimeoutTimer
+                0x0000000020000d54                RxTimeoutSyncWord
+                0x0000000020000d68                SX1276
+                0x0000000020000eb4                RxTimeoutTimer
+ COMMON         0x0000000020000ec8       0x84 src/peripherals/lis3dh.o
+                0x0000000020000ec8                Lis3dh_int1
+                0x0000000020000ed4                Lis3dh_int2
+                0x0000000020000ee0                Lis3dh_i2c
+ COMMON         0x0000000020000f4c       0x9c src/boards/RAK811BreakBoard/gps-board.o
+                0x0000000020000f4c                GpsPps
+                0x0000000020000f58                PpsTrigger
+                0x0000000020000f5c                GpsPowerEn
+                0x0000000020000f68                NmeaString
+ COMMON         0x0000000020000fe8       0x14 src/boards/RAK811BreakBoard/rtc-board.o
+                0x0000000020000fe8                RtcCalendarContext
+ COMMON         0x0000000020000ffc       0x54 src/boards/RAK811BreakBoard/adc-board.o
+                0x0000000020000ffc                AdcHandle
+ COMMON         0x0000000020001050       0x24 src/boards/RAK811BreakBoard/sx1276-board.o
+                0x0000000020001050                AntCrxRx
+                0x000000002000105c                AntCbtHf
+                0x0000000020001068                AntCtxPa
+ COMMON         0x0000000020001074      0x100 src/boards/RAK811BreakBoard/board.o
+                0x0000000020001074                Led2
+                0x0000000020001080                I2c
+                0x00000000200010ec                Uart1
+                0x0000000020001124                Adc
+                0x0000000020001130                Led1
+                0x000000002000113c                GpsUart
+ COMMON         0x0000000020001174      0x488 src/boards/RAK811BreakBoard/uart-board.o
+                0x0000000020001174                GPS_RxBuffer
+                0x0000000020001374                UartContext
+                0x00000000200013fc                UART_RxBuffer
+ COMMON         0x00000000200015fc       0x63 src/system/gps.o
+                0x00000000200015fc                NmeaGpsData
+ *fill*         0x000000002000165f        0x1 
+ COMMON         0x0000000020001660       0x74 src/mac/LoRaMac.o
+                0x0000000020001660                LoRaMacFlags
+                0x0000000020001664                LoRaMacParamsDefaults
+                0x000000002000169c                LoRaMacParams
+ COMMON         0x00000000200016d4        0x4 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+                0x00000000200016d4                uwTick
+                0x00000000200016d8                . = ALIGN (0x4)
+                0x00000000200016d8                _ebss = .
+                0x00000000200016d8                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x00000000200016d8      0x600 load address 0x0000000008013778
+                0x00000000200016d8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end, .)
+                [!provide]                        PROVIDE (_end, .)
+                0x00000000200018d8                . = (. + _Min_Heap_Size)
+ *fill*         0x00000000200016d8      0x200 
+                0x0000000020001cd8                . = (. + _Min_Stack_Size)
+ *fill*         0x00000000200018d8      0x400 
+                0x0000000020001cd8                . = ALIGN (0x4)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .ARM.attributes
+                0x000000000000001d       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .ARM.attributes
+                0x000000000000004a       0x33 src/apps/classA/main.o
+ .ARM.attributes
+                0x000000000000007d       0x33 src/system/printf.o
+ .ARM.attributes
+                0x00000000000000b0       0x33 src/radio/sx1276/sx1276.o
+ .ARM.attributes
+                0x00000000000000e3       0x33 src/peripherals/lis3dh.o
+ .ARM.attributes
+                0x0000000000000116       0x33 src/boards/RAK811BreakBoard/gps-board.o
+ .ARM.attributes
+                0x0000000000000149       0x33 src/boards/RAK811BreakBoard/rtc-board.o
+ .ARM.attributes
+                0x000000000000017c       0x33 src/boards/RAK811BreakBoard/adc-board.o
+ .ARM.attributes
+                0x00000000000001af       0x33 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .ARM.attributes
+                0x00000000000001e2       0x33 src/boards/RAK811BreakBoard/sx1276-board.o
+ .ARM.attributes
+                0x0000000000000215       0x33 src/boards/RAK811BreakBoard/board.o
+ .ARM.attributes
+                0x0000000000000248       0x33 src/boards/RAK811BreakBoard/i2c-board.o
+ .ARM.attributes
+                0x000000000000027b       0x33 src/boards/RAK811BreakBoard/spi-board.o
+ .ARM.attributes
+                0x00000000000002ae       0x33 src/boards/RAK811BreakBoard/gpio-board.o
+ .ARM.attributes
+                0x00000000000002e1       0x33 src/boards/mcu/stm32/sysIrqHandlers.o
+ .ARM.attributes
+                0x0000000000000314       0x33 src/boards/RAK811BreakBoard/uart-board.o
+ .ARM.attributes
+                0x0000000000000347       0x33 src/system/fifo.o
+ .ARM.attributes
+                0x000000000000037a       0x33 src/system/timer.o
+ .ARM.attributes
+                0x00000000000003ad       0x33 src/system/delay.o
+ .ARM.attributes
+                0x00000000000003e0       0x33 src/system/gpio.o
+ .ARM.attributes
+                0x0000000000000413       0x33 src/system/adc.o
+ .ARM.attributes
+                0x0000000000000446       0x33 src/system/gps.o
+ .ARM.attributes
+                0x0000000000000479       0x33 src/system/i2c.o
+ .ARM.attributes
+                0x00000000000004ac       0x33 src/system/crypto/cmac.o
+ .ARM.attributes
+                0x00000000000004df       0x33 src/system/crypto/aes.o
+ .ARM.attributes
+                0x0000000000000512       0x33 src/mac/LoRaMac.o
+ .ARM.attributes
+                0x0000000000000545       0x33 src/mac/region/Region.o
+ .ARM.attributes
+                0x0000000000000578       0x33 src/mac/region/RegionEU868.o
+ .ARM.attributes
+                0x00000000000005ab       0x33 src/mac/region/RegionCommon.o
+ .ARM.attributes
+                0x00000000000005de       0x33 src/mac/LoRaMacCrypto.o
+ .ARM.attributes
+                0x0000000000000611       0x33 src/boards/mcu/stm32/utilities.o
+ .ARM.attributes
+                0x0000000000000644       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .ARM.attributes
+                0x0000000000000677       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .ARM.attributes
+                0x00000000000006aa       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .ARM.attributes
+                0x00000000000006dd       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .ARM.attributes
+                0x0000000000000710       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .ARM.attributes
+                0x0000000000000743       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .ARM.attributes
+                0x0000000000000776       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .ARM.attributes
+                0x00000000000007a9       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .ARM.attributes
+                0x00000000000007dc       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .ARM.attributes
+                0x000000000000080f       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .ARM.attributes
+                0x0000000000000842       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .ARM.attributes
+                0x0000000000000875       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .ARM.attributes
+                0x00000000000008a8       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .ARM.attributes
+                0x00000000000008db       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .ARM.attributes
+                0x000000000000090e       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .ARM.attributes
+                0x0000000000000941       0x33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .ARM.attributes
+                0x0000000000000974       0x21 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+ .ARM.attributes
+                0x0000000000000995       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000000009b2       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000000000009cf       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000000000009ec       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000000000000a09       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000000000000a26       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000a43       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000a60       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x0000000000000a7d       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+ .ARM.attributes
+                0x0000000000000aaa       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000ad7       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000b04       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000b31       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x0000000000000b5e       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x0000000000000b8b       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000000000000bb8       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x0000000000000be5       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x0000000000000c12       0x2d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000000000000c3f       0x1d /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+OUTPUT(Debug/classA.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000    0x5a8ce
+ .debug_info    0x0000000000000000     0x387c src/apps/classA/main.o
+ .debug_info    0x000000000000387c     0x2787 src/system/printf.o
+ .debug_info    0x0000000000006003     0x429f src/radio/sx1276/sx1276.o
+ .debug_info    0x000000000000a2a2     0x3be4 src/peripherals/lis3dh.o
+ .debug_info    0x000000000000de86     0x2310 src/boards/RAK811BreakBoard/gps-board.o
+ .debug_info    0x0000000000010196     0x3047 src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_info    0x00000000000131dd     0x2524 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_info    0x0000000000015701      0xc72 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .debug_info    0x0000000000016373     0x263a src/boards/RAK811BreakBoard/sx1276-board.o
+ .debug_info    0x00000000000189ad     0x2bf0 src/boards/RAK811BreakBoard/board.o
+ .debug_info    0x000000000001b59d     0x24bf src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_info    0x000000000001da5c     0x241e src/boards/RAK811BreakBoard/spi-board.o
+ .debug_info    0x000000000001fe7a     0x2845 src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_info    0x00000000000226bf     0x1ec5 src/boards/mcu/stm32/sysIrqHandlers.o
+ .debug_info    0x0000000000024584     0x2b42 src/boards/RAK811BreakBoard/uart-board.o
+ .debug_info    0x00000000000270c6      0x28e src/system/fifo.o
+ .debug_info    0x0000000000027354     0x249c src/system/timer.o
+ .debug_info    0x00000000000297f0     0x1f11 src/system/delay.o
+ .debug_info    0x000000000002b701     0x214a src/system/gpio.o
+ .debug_info    0x000000000002d84b     0x1f71 src/system/adc.o
+ .debug_info    0x000000000002f7bc     0x2670 src/system/gps.o
+ .debug_info    0x0000000000031e2c     0x22aa src/system/i2c.o
+ .debug_info    0x00000000000340d6      0x509 src/system/crypto/cmac.o
+ .debug_info    0x00000000000345df      0xe01 src/system/crypto/aes.o
+ .debug_info    0x00000000000353e0     0x5a5a src/mac/LoRaMac.o
+ .debug_info    0x000000000003ae3a     0x1c8d src/mac/region/Region.o
+ .debug_info    0x000000000003cac7     0x3a92 src/mac/region/RegionEU868.o
+ .debug_info    0x0000000000040559     0x1424 src/mac/region/RegionCommon.o
+ .debug_info    0x000000000004197d     0x107c src/mac/LoRaMacCrypto.o
+ .debug_info    0x00000000000429f9     0x1ff2 src/boards/mcu/stm32/utilities.o
+ .debug_info    0x00000000000449eb     0x1e0d src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_info    0x00000000000467f8     0x18ef src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_info    0x00000000000480e7     0x3618 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_info    0x000000000004b6ff      0xe87 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_info    0x000000000004c586      0xd10 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_info    0x000000000004d296     0x11f5 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .debug_info    0x000000000004e48b     0x1035 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_info    0x000000000004f4c0      0xe40 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .debug_info    0x0000000000050300      0xbe2 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .debug_info    0x0000000000050ee2      0xe9b src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_info    0x0000000000051d7d     0x1618 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_info    0x0000000000053395     0x12c0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .debug_info    0x0000000000054655     0x1a33 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .debug_info    0x0000000000056088     0x19f1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_info    0x0000000000057a79     0x1068 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .debug_info    0x0000000000058ae1     0x1dcb src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .debug_info    0x000000000005a8ac       0x22 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+
+.debug_abbrev   0x0000000000000000     0x96d3
+ .debug_abbrev  0x0000000000000000      0x4ac src/apps/classA/main.o
+ .debug_abbrev  0x00000000000004ac      0x3b1 src/system/printf.o
+ .debug_abbrev  0x000000000000085d      0x529 src/radio/sx1276/sx1276.o
+ .debug_abbrev  0x0000000000000d86      0x3a3 src/peripherals/lis3dh.o
+ .debug_abbrev  0x0000000000001129      0x30a src/boards/RAK811BreakBoard/gps-board.o
+ .debug_abbrev  0x0000000000001433      0x514 src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_abbrev  0x0000000000001947      0x345 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_abbrev  0x0000000000001c8c      0x202 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .debug_abbrev  0x0000000000001e8e      0x312 src/boards/RAK811BreakBoard/sx1276-board.o
+ .debug_abbrev  0x00000000000021a0      0x482 src/boards/RAK811BreakBoard/board.o
+ .debug_abbrev  0x0000000000002622      0x2fa src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_abbrev  0x000000000000291c      0x349 src/boards/RAK811BreakBoard/spi-board.o
+ .debug_abbrev  0x0000000000002c65      0x380 src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_abbrev  0x0000000000002fe5      0x22a src/boards/mcu/stm32/sysIrqHandlers.o
+ .debug_abbrev  0x000000000000320f      0x383 src/boards/RAK811BreakBoard/uart-board.o
+ .debug_abbrev  0x0000000000003592      0x125 src/system/fifo.o
+ .debug_abbrev  0x00000000000036b7      0x4bd src/system/timer.o
+ .debug_abbrev  0x0000000000003b74      0x28e src/system/delay.o
+ .debug_abbrev  0x0000000000003e02      0x270 src/system/gpio.o
+ .debug_abbrev  0x0000000000004072      0x29a src/system/adc.o
+ .debug_abbrev  0x000000000000430c      0x410 src/system/gps.o
+ .debug_abbrev  0x000000000000471c      0x2d5 src/system/i2c.o
+ .debug_abbrev  0x00000000000049f1      0x17a src/system/crypto/cmac.o
+ .debug_abbrev  0x0000000000004b6b      0x2fd src/system/crypto/aes.o
+ .debug_abbrev  0x0000000000004e68      0x58b src/mac/LoRaMac.o
+ .debug_abbrev  0x00000000000053f3      0x287 src/mac/region/Region.o
+ .debug_abbrev  0x000000000000567a      0x4c6 src/mac/region/RegionEU868.o
+ .debug_abbrev  0x0000000000005b40      0x409 src/mac/region/RegionCommon.o
+ .debug_abbrev  0x0000000000005f49      0x255 src/mac/LoRaMacCrypto.o
+ .debug_abbrev  0x000000000000619e      0x279 src/boards/mcu/stm32/utilities.o
+ .debug_abbrev  0x0000000000006417      0x3c9 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_abbrev  0x00000000000067e0      0x3c1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_abbrev  0x0000000000006ba1      0x401 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_abbrev  0x0000000000006fa2      0x2de src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_abbrev  0x0000000000007280      0x30a src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_abbrev  0x000000000000758a      0x31c src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .debug_abbrev  0x00000000000078a6      0x2d8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_abbrev  0x0000000000007b7e      0x212 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .debug_abbrev  0x0000000000007d90      0x273 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .debug_abbrev  0x0000000000008003      0x2a2 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_abbrev  0x00000000000082a5      0x3c0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_abbrev  0x0000000000008665      0x300 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .debug_abbrev  0x0000000000008965      0x30f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .debug_abbrev  0x0000000000008c74      0x3a6 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_abbrev  0x000000000000901a      0x2d7 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .debug_abbrev  0x00000000000092f1      0x3d0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .debug_abbrev  0x00000000000096c1       0x12 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+
+.debug_loc      0x0000000000000000    0x14367
+ .debug_loc     0x0000000000000000      0x4db src/apps/classA/main.o
+ .debug_loc     0x00000000000004db      0xa47 src/system/printf.o
+ .debug_loc     0x0000000000000f22     0x1145 src/radio/sx1276/sx1276.o
+ .debug_loc     0x0000000000002067      0xc2c src/peripherals/lis3dh.o
+ .debug_loc     0x0000000000002c93       0x35 src/boards/RAK811BreakBoard/gps-board.o
+ .debug_loc     0x0000000000002cc8      0xbbd src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_loc     0x0000000000003885      0x115 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_loc     0x000000000000399a      0x135 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .debug_loc     0x0000000000003acf      0x1eb src/boards/RAK811BreakBoard/sx1276-board.o
+ .debug_loc     0x0000000000003cba      0x108 src/boards/RAK811BreakBoard/board.o
+ .debug_loc     0x0000000000003dc2      0x441 src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_loc     0x0000000000004203      0x2cc src/boards/RAK811BreakBoard/spi-board.o
+ .debug_loc     0x00000000000044cf      0x4ad src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_loc     0x000000000000497c      0x6cf src/boards/RAK811BreakBoard/uart-board.o
+ .debug_loc     0x000000000000504b       0xb5 src/system/fifo.o
+ .debug_loc     0x0000000000005100      0x462 src/system/timer.o
+ .debug_loc     0x0000000000005562       0x7e src/system/delay.o
+ .debug_loc     0x00000000000055e0      0x282 src/system/gpio.o
+ .debug_loc     0x0000000000005862       0xbe src/system/adc.o
+ .debug_loc     0x0000000000005920      0xd2b src/system/gps.o
+ .debug_loc     0x000000000000664b      0x3fd src/system/i2c.o
+ .debug_loc     0x0000000000006a48      0x20e src/system/crypto/cmac.o
+ .debug_loc     0x0000000000006c56      0x4dd src/system/crypto/aes.o
+ .debug_loc     0x0000000000007133     0x21c9 src/mac/LoRaMac.o
+ .debug_loc     0x00000000000092fc      0xcf8 src/mac/region/Region.o
+ .debug_loc     0x0000000000009ff4     0x134e src/mac/region/RegionEU868.o
+ .debug_loc     0x000000000000b342      0x937 src/mac/region/RegionCommon.o
+ .debug_loc     0x000000000000bc79      0x69c src/mac/LoRaMacCrypto.o
+ .debug_loc     0x000000000000c315      0x1d6 src/boards/mcu/stm32/utilities.o
+ .debug_loc     0x000000000000c4eb      0xb1a src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_loc     0x000000000000d005      0x837 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_loc     0x000000000000d83c     0x25b5 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_loc     0x000000000000fdf1       0x6a src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_loc     0x000000000000fe5b      0x2ad src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_loc     0x0000000000010108      0x4b1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .debug_loc     0x00000000000105b9      0x600 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_loc     0x0000000000010bb9       0x34 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .debug_loc     0x0000000000010bed       0xac src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .debug_loc     0x0000000000010c99      0x2df src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_loc     0x0000000000010f78      0x43b src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_loc     0x00000000000113b3      0x407 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .debug_loc     0x00000000000117ba      0xce7 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .debug_loc     0x00000000000124a1      0xdd1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_loc     0x0000000000013272      0x11f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .debug_loc     0x0000000000013391      0xfd6 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+
+.debug_aranges  0x0000000000000000      0x5f0
+ .debug_aranges
+                0x0000000000000000       0x28 src/apps/classA/main.o
+ .debug_aranges
+                0x0000000000000028       0x20 src/system/printf.o
+ .debug_aranges
+                0x0000000000000048       0x20 src/radio/sx1276/sx1276.o
+ .debug_aranges
+                0x0000000000000068       0x20 src/peripherals/lis3dh.o
+ .debug_aranges
+                0x0000000000000088       0x20 src/boards/RAK811BreakBoard/gps-board.o
+ .debug_aranges
+                0x00000000000000a8       0x20 src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_aranges
+                0x00000000000000c8       0x20 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_aranges
+                0x00000000000000e8       0x20 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .debug_aranges
+                0x0000000000000108       0x20 src/boards/RAK811BreakBoard/sx1276-board.o
+ .debug_aranges
+                0x0000000000000128       0x20 src/boards/RAK811BreakBoard/board.o
+ .debug_aranges
+                0x0000000000000148       0x20 src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_aranges
+                0x0000000000000168       0x20 src/boards/RAK811BreakBoard/spi-board.o
+ .debug_aranges
+                0x0000000000000188       0x20 src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_aranges
+                0x00000000000001a8       0x20 src/boards/mcu/stm32/sysIrqHandlers.o
+ .debug_aranges
+                0x00000000000001c8       0x20 src/boards/RAK811BreakBoard/uart-board.o
+ .debug_aranges
+                0x00000000000001e8       0x20 src/system/fifo.o
+ .debug_aranges
+                0x0000000000000208       0x20 src/system/timer.o
+ .debug_aranges
+                0x0000000000000228       0x20 src/system/delay.o
+ .debug_aranges
+                0x0000000000000248       0x20 src/system/gpio.o
+ .debug_aranges
+                0x0000000000000268       0x20 src/system/adc.o
+ .debug_aranges
+                0x0000000000000288       0x20 src/system/gps.o
+ .debug_aranges
+                0x00000000000002a8       0x20 src/system/i2c.o
+ .debug_aranges
+                0x00000000000002c8       0x20 src/system/crypto/cmac.o
+ .debug_aranges
+                0x00000000000002e8       0x20 src/system/crypto/aes.o
+ .debug_aranges
+                0x0000000000000308       0x20 src/mac/LoRaMac.o
+ .debug_aranges
+                0x0000000000000328       0x20 src/mac/region/Region.o
+ .debug_aranges
+                0x0000000000000348       0x20 src/mac/region/RegionEU868.o
+ .debug_aranges
+                0x0000000000000368       0x20 src/mac/region/RegionCommon.o
+ .debug_aranges
+                0x0000000000000388       0x20 src/mac/LoRaMacCrypto.o
+ .debug_aranges
+                0x00000000000003a8       0x20 src/boards/mcu/stm32/utilities.o
+ .debug_aranges
+                0x00000000000003c8       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_aranges
+                0x00000000000003e8       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_aranges
+                0x0000000000000408       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_aranges
+                0x0000000000000428       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_aranges
+                0x0000000000000448       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_aranges
+                0x0000000000000468       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .debug_aranges
+                0x0000000000000488       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_aranges
+                0x00000000000004a8       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .debug_aranges
+                0x00000000000004c8       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .debug_aranges
+                0x00000000000004e8       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_aranges
+                0x0000000000000508       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_aranges
+                0x0000000000000528       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .debug_aranges
+                0x0000000000000548       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .debug_aranges
+                0x0000000000000568       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_aranges
+                0x0000000000000588       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .debug_aranges
+                0x00000000000005a8       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .debug_aranges
+                0x00000000000005c8       0x28 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+
+.debug_ranges   0x0000000000000000      0xf30
+ .debug_ranges  0x0000000000000000       0xb8 src/apps/classA/main.o
+ .debug_ranges  0x00000000000000b8       0x50 src/radio/sx1276/sx1276.o
+ .debug_ranges  0x0000000000000108       0x98 src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_ranges  0x00000000000001a0       0x50 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_ranges  0x00000000000001f0       0x50 src/boards/RAK811BreakBoard/board.o
+ .debug_ranges  0x0000000000000240       0x28 src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_ranges  0x0000000000000268       0x18 src/boards/RAK811BreakBoard/spi-board.o
+ .debug_ranges  0x0000000000000280       0x20 src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_ranges  0x00000000000002a0       0x30 src/boards/RAK811BreakBoard/uart-board.o
+ .debug_ranges  0x00000000000002d0       0x40 src/system/fifo.o
+ .debug_ranges  0x0000000000000310       0x30 src/system/timer.o
+ .debug_ranges  0x0000000000000340       0x40 src/system/gps.o
+ .debug_ranges  0x0000000000000380       0x30 src/system/crypto/cmac.o
+ .debug_ranges  0x00000000000003b0       0xe8 src/system/crypto/aes.o
+ .debug_ranges  0x0000000000000498      0x1b8 src/mac/LoRaMac.o
+ .debug_ranges  0x0000000000000650       0xf8 src/mac/region/RegionEU868.o
+ .debug_ranges  0x0000000000000748       0xe8 src/mac/region/RegionCommon.o
+ .debug_ranges  0x0000000000000830      0x228 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_ranges  0x0000000000000a58       0x18 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_ranges  0x0000000000000a70      0x2a0 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_ranges  0x0000000000000d10       0x48 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_ranges  0x0000000000000d58       0x30 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_ranges  0x0000000000000d88       0x20 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_ranges  0x0000000000000da8       0xc8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_ranges  0x0000000000000e70       0x48 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_ranges  0x0000000000000eb8       0x58 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .debug_ranges  0x0000000000000f10       0x20 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+
+.debug_line     0x0000000000000000     0xdc47
+ .debug_line    0x0000000000000000      0x5c3 src/apps/classA/main.o
+ .debug_line    0x00000000000005c3      0x42c src/system/printf.o
+ .debug_line    0x00000000000009ef      0x8be src/radio/sx1276/sx1276.o
+ .debug_line    0x00000000000012ad      0x6dd src/peripherals/lis3dh.o
+ .debug_line    0x000000000000198a      0x346 src/boards/RAK811BreakBoard/gps-board.o
+ .debug_line    0x0000000000001cd0      0x5a8 src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_line    0x0000000000002278      0x3a2 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_line    0x000000000000261a      0x1a5 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .debug_line    0x00000000000027bf      0x346 src/boards/RAK811BreakBoard/sx1276-board.o
+ .debug_line    0x0000000000002b05      0x472 src/boards/RAK811BreakBoard/board.o
+ .debug_line    0x0000000000002f77      0x333 src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_line    0x00000000000032aa      0x36f src/boards/RAK811BreakBoard/spi-board.o
+ .debug_line    0x0000000000003619      0x3ea src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_line    0x0000000000003a03      0x303 src/boards/mcu/stm32/sysIrqHandlers.o
+ .debug_line    0x0000000000003d06      0x41f src/boards/RAK811BreakBoard/uart-board.o
+ .debug_line    0x0000000000004125       0xe7 src/system/fifo.o
+ .debug_line    0x000000000000420c      0x3f4 src/system/timer.o
+ .debug_line    0x0000000000004600      0x2f2 src/system/delay.o
+ .debug_line    0x00000000000048f2      0x317 src/system/gpio.o
+ .debug_line    0x0000000000004c09      0x2f4 src/system/adc.o
+ .debug_line    0x0000000000004efd      0x614 src/system/gps.o
+ .debug_line    0x0000000000005511      0x329 src/system/i2c.o
+ .debug_line    0x000000000000583a      0x198 src/system/crypto/cmac.o
+ .debug_line    0x00000000000059d2      0x2bd src/system/crypto/aes.o
+ .debug_line    0x0000000000005c8f      0xe0a src/mac/LoRaMac.o
+ .debug_line    0x0000000000006a99      0x206 src/mac/region/Region.o
+ .debug_line    0x0000000000006c9f      0x6d1 src/mac/region/RegionEU868.o
+ .debug_line    0x0000000000007370      0x2c7 src/mac/region/RegionCommon.o
+ .debug_line    0x0000000000007637      0x212 src/mac/LoRaMacCrypto.o
+ .debug_line    0x0000000000007849      0x310 src/boards/mcu/stm32/utilities.o
+ .debug_line    0x0000000000007b59      0x8b3 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_line    0x000000000000840c      0x63b src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_line    0x0000000000008a47     0x1670 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_line    0x000000000000a0b7      0x252 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_line    0x000000000000a309      0x314 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_line    0x000000000000a61d      0x475 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .debug_line    0x000000000000aa92      0x411 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_line    0x000000000000aea3      0x235 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .debug_line    0x000000000000b0d8      0x275 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .debug_line    0x000000000000b34d      0x364 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_line    0x000000000000b6b1      0x367 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_line    0x000000000000ba18      0x3e2 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .debug_line    0x000000000000bdfa      0x87b src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .debug_line    0x000000000000c675      0x846 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_line    0x000000000000cebb      0x2e1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .debug_line    0x000000000000d19c      0xa0e src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .debug_line    0x000000000000dbaa       0x9d src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+
+.debug_str      0x0000000000000000     0xa0db
+ .debug_str     0x0000000000000000     0x236a src/apps/classA/main.o
+                                       0x2782 (size before relaxing)
+ .debug_str     0x000000000000236a       0xee src/system/printf.o
+                                       0x15b3 (size before relaxing)
+ .debug_str     0x0000000000002458      0x550 src/radio/sx1276/sx1276.o
+                                       0x1af6 (size before relaxing)
+ .debug_str     0x00000000000029a8      0xc73 src/peripherals/lis3dh.o
+                                       0x21b2 (size before relaxing)
+ .debug_str     0x000000000000361b      0x233 src/boards/RAK811BreakBoard/gps-board.o
+                                       0x17dd (size before relaxing)
+ .debug_str     0x000000000000384e      0xb50 src/boards/RAK811BreakBoard/rtc-board.o
+                                       0x20f2 (size before relaxing)
+ .debug_str     0x000000000000439e      0x285 src/boards/RAK811BreakBoard/adc-board.o
+                                       0x181f (size before relaxing)
+ .debug_str     0x0000000000004623       0xd5 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+                                        0x6c2 (size before relaxing)
+ .debug_str     0x00000000000046f8       0xe0 src/boards/RAK811BreakBoard/sx1276-board.o
+                                       0x16f6 (size before relaxing)
+ .debug_str     0x00000000000047d8      0x4a3 src/boards/RAK811BreakBoard/board.o
+                                       0x1f02 (size before relaxing)
+ .debug_str     0x0000000000004c7b      0x208 src/boards/RAK811BreakBoard/i2c-board.o
+                                       0x1790 (size before relaxing)
+ .debug_str     0x0000000000004e83       0xa9 src/boards/RAK811BreakBoard/spi-board.o
+                                       0x1622 (size before relaxing)
+ .debug_str     0x0000000000004f2c      0x29e src/boards/RAK811BreakBoard/gpio-board.o
+                                       0x1b81 (size before relaxing)
+ .debug_str     0x00000000000051ca       0x79 src/boards/mcu/stm32/sysIrqHandlers.o
+                                       0x14ec (size before relaxing)
+ .debug_str     0x0000000000005243      0x35f src/boards/RAK811BreakBoard/uart-board.o
+                                       0x1d1d (size before relaxing)
+ .debug_str     0x00000000000055a2       0x2a src/system/fifo.o
+                                        0x1da (size before relaxing)
+ .debug_str     0x00000000000055cc      0x114 src/system/timer.o
+                                       0x175e (size before relaxing)
+ .debug_str     0x00000000000056e0       0x1d src/system/delay.o
+                                       0x14a4 (size before relaxing)
+ .debug_str     0x00000000000056fd       0x2f src/system/gpio.o
+                                       0x167d (size before relaxing)
+ .debug_str     0x000000000000572c       0x20 src/system/adc.o
+                                       0x14ef (size before relaxing)
+ .debug_str     0x000000000000574c      0x2bb src/system/gps.o
+                                       0x1902 (size before relaxing)
+ .debug_str     0x0000000000005a07       0x47 src/system/i2c.o
+                                       0x15bd (size before relaxing)
+ .debug_str     0x0000000000005a4e       0xb1 src/system/crypto/cmac.o
+                                        0x221 (size before relaxing)
+ .debug_str     0x0000000000005aff       0xc0 src/system/crypto/aes.o
+                                        0x627 (size before relaxing)
+ .debug_str     0x0000000000005bbf     0x164e src/mac/LoRaMac.o
+                                       0x3bb9 (size before relaxing)
+ .debug_str     0x000000000000720d      0x350 src/mac/region/Region.o
+                                       0x1636 (size before relaxing)
+ .debug_str     0x000000000000755d      0x458 src/mac/region/RegionEU868.o
+                                       0x27a6 (size before relaxing)
+ .debug_str     0x00000000000079b5      0x160 src/mac/region/RegionCommon.o
+                                        0xd32 (size before relaxing)
+ .debug_str     0x0000000000007b15       0x89 src/mac/LoRaMacCrypto.o
+                                        0x72c (size before relaxing)
+ .debug_str     0x0000000000007b9e       0x21 src/boards/mcu/stm32/utilities.o
+                                       0x14e3 (size before relaxing)
+ .debug_str     0x0000000000007bbf      0x244 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+                                        0xa90 (size before relaxing)
+ .debug_str     0x0000000000007e03      0x2d8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+                                        0xd87 (size before relaxing)
+ .debug_str     0x00000000000080db      0x752 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+                                       0x1256 (size before relaxing)
+ .debug_str     0x000000000000882d      0x157 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+                                        0xb2b (size before relaxing)
+ .debug_str     0x0000000000008984       0xa1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+                                        0x7a3 (size before relaxing)
+ .debug_str     0x0000000000008a25      0x231 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+                                        0xc41 (size before relaxing)
+ .debug_str     0x0000000000008c56      0x214 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+                                        0xa10 (size before relaxing)
+ .debug_str     0x0000000000008e6a       0x5a src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+                                        0x9cc (size before relaxing)
+ .debug_str     0x0000000000008ec4       0xc1 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+                                        0x703 (size before relaxing)
+ .debug_str     0x0000000000008f85       0xca src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+                                        0x823 (size before relaxing)
+ .debug_str     0x000000000000904f      0x2cf src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+                                        0xd96 (size before relaxing)
+ .debug_str     0x000000000000931e      0x144 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+                                        0xa67 (size before relaxing)
+ .debug_str     0x0000000000009462      0x3d8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+                                        0xdd2 (size before relaxing)
+ .debug_str     0x000000000000983a      0x2f2 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+                                        0xd91 (size before relaxing)
+ .debug_str     0x0000000000009b2c      0x1f9 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+                                        0x8c4 (size before relaxing)
+ .debug_str     0x0000000000009d25      0x366 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+                                        0xd6d (size before relaxing)
+ .debug_str     0x000000000000a08b       0x50 src/boards/RAK811BreakBoard/cmsis/arm-gcc/startup_stm32l151xba.o
+                                         0x6d (size before relaxing)
+
+.comment        0x0000000000000000       0x7e
+ .comment       0x0000000000000000       0x7e src/apps/classA/main.o
+                                         0x7f (size before relaxing)
+ .comment       0x000000000000007e       0x7f src/system/printf.o
+ .comment       0x000000000000007e       0x7f src/radio/sx1276/sx1276.o
+ .comment       0x000000000000007e       0x7f src/peripherals/lis3dh.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/gps-board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/rtc-board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/adc-board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/sx1276-board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/i2c-board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/spi-board.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/gpio-board.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/sysIrqHandlers.o
+ .comment       0x000000000000007e       0x7f src/boards/RAK811BreakBoard/uart-board.o
+ .comment       0x000000000000007e       0x7f src/system/fifo.o
+ .comment       0x000000000000007e       0x7f src/system/timer.o
+ .comment       0x000000000000007e       0x7f src/system/delay.o
+ .comment       0x000000000000007e       0x7f src/system/gpio.o
+ .comment       0x000000000000007e       0x7f src/system/adc.o
+ .comment       0x000000000000007e       0x7f src/system/gps.o
+ .comment       0x000000000000007e       0x7f src/system/i2c.o
+ .comment       0x000000000000007e       0x7f src/system/crypto/cmac.o
+ .comment       0x000000000000007e       0x7f src/system/crypto/aes.o
+ .comment       0x000000000000007e       0x7f src/mac/LoRaMac.o
+ .comment       0x000000000000007e       0x7f src/mac/region/Region.o
+ .comment       0x000000000000007e       0x7f src/mac/region/RegionEU868.o
+ .comment       0x000000000000007e       0x7f src/mac/region/RegionCommon.o
+ .comment       0x000000000000007e       0x7f src/mac/LoRaMacCrypto.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/utilities.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .comment       0x000000000000007e       0x7f src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+
+.debug_frame    0x0000000000000000     0x4de8
+ .debug_frame   0x0000000000000000      0x148 src/apps/classA/main.o
+ .debug_frame   0x0000000000000148      0x200 src/system/printf.o
+ .debug_frame   0x0000000000000348      0x4d4 src/radio/sx1276/sx1276.o
+ .debug_frame   0x000000000000081c      0x5d4 src/peripherals/lis3dh.o
+ .debug_frame   0x0000000000000df0       0x9c src/boards/RAK811BreakBoard/gps-board.o
+ .debug_frame   0x0000000000000e8c      0x1b8 src/boards/RAK811BreakBoard/rtc-board.o
+ .debug_frame   0x0000000000001044       0x60 src/boards/RAK811BreakBoard/adc-board.o
+ .debug_frame   0x00000000000010a4       0x38 src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.o
+ .debug_frame   0x00000000000010dc      0x120 src/boards/RAK811BreakBoard/sx1276-board.o
+ .debug_frame   0x00000000000011fc      0x130 src/boards/RAK811BreakBoard/board.o
+ .debug_frame   0x000000000000132c       0xd4 src/boards/RAK811BreakBoard/i2c-board.o
+ .debug_frame   0x0000000000001400       0xac src/boards/RAK811BreakBoard/spi-board.o
+ .debug_frame   0x00000000000014ac      0x180 src/boards/RAK811BreakBoard/gpio-board.o
+ .debug_frame   0x000000000000162c       0x60 src/boards/mcu/stm32/sysIrqHandlers.o
+ .debug_frame   0x000000000000168c      0x17c src/boards/RAK811BreakBoard/uart-board.o
+ .debug_frame   0x0000000000001808       0x78 src/system/fifo.o
+ .debug_frame   0x0000000000001880      0x160 src/system/timer.o
+ .debug_frame   0x00000000000019e0       0x3c src/system/delay.o
+ .debug_frame   0x0000000000001a1c       0x94 src/system/gpio.o
+ .debug_frame   0x0000000000001ab0       0x50 src/system/adc.o
+ .debug_frame   0x0000000000001b00      0x228 src/system/gps.o
+ .debug_frame   0x0000000000001d28       0xe4 src/system/i2c.o
+ .debug_frame   0x0000000000001e0c       0x90 src/system/crypto/cmac.o
+ .debug_frame   0x0000000000001e9c       0xac src/system/crypto/aes.o
+ .debug_frame   0x0000000000001f48      0x458 src/mac/LoRaMac.o
+ .debug_frame   0x00000000000023a0      0x1e4 src/mac/region/Region.o
+ .debug_frame   0x0000000000002584      0x2ec src/mac/region/RegionEU868.o
+ .debug_frame   0x0000000000002870      0x1a0 src/mac/region/RegionCommon.o
+ .debug_frame   0x0000000000002a10       0xe8 src/mac/LoRaMacCrypto.o
+ .debug_frame   0x0000000000002af8       0x8c src/boards/mcu/stm32/utilities.o
+ .debug_frame   0x0000000000002b84      0x164 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_frame   0x0000000000002ce8      0x29c src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.o
+ .debug_frame   0x0000000000002f84      0x680 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.o
+ .debug_frame   0x0000000000003604      0x164 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_frame   0x0000000000003768       0x58 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o
+ .debug_frame   0x00000000000037c0       0xd8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.o
+ .debug_frame   0x0000000000003898      0x13c src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o
+ .debug_frame   0x00000000000039d4       0x28 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.o
+ .debug_frame   0x00000000000039fc       0x80 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o
+ .debug_frame   0x0000000000003a7c       0xd8 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_frame   0x0000000000003b54      0x138 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_frame   0x0000000000003c8c      0x164 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.o
+ .debug_frame   0x0000000000003df0      0x348 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.o
+ .debug_frame   0x0000000000004138      0x320 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_frame   0x0000000000004458      0x128 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o
+ .debug_frame   0x0000000000004580      0x3a4 src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o
+ .debug_frame   0x0000000000004924       0xac /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000000049d0       0x50 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000004a20       0xc4 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000004ae4       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000004b08       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x0000000000004b2c       0x4c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000004b78       0x38 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000004bb0       0x24 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x0000000000004bd4       0x30 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-atoi.o)
+ .debug_frame   0x0000000000004c04       0x2c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000004c30       0x20 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000004c50       0x28 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strncmp.o)
+ .debug_frame   0x0000000000004c78       0x84 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000004cfc       0x68 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-locale.o)
+ .debug_frame   0x0000000000004d64       0x48 /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x0000000000004dac       0x3c /usr/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wctomb_r.o)

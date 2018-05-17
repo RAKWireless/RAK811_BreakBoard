@@ -7,7 +7,8 @@
 
 TARGET ?= classA
 
-GCC_ROOT = /opt/gcc-arm-none-eabi-7-2017-q4-major
+#GCC_ROOT = /opt/gcc-arm-none-eabi-7-2017-q4-major
+GCC_ROOT = /usr
 CC       = $(GCC_ROOT)/bin/arm-none-eabi-gcc
 CXX      = $(GCC_ROOT)/bin/arm-none-eabi-g++
 LD      = $(GCC_ROOT)/bin/arm-none-eabi-ld
@@ -28,7 +29,7 @@ INCLUDE_DIRS := $(GCC_ROOT)/arm-none-eabi/include
 #====================================================
 C_SRCS := \
 	src/apps/classA/main.c \
-	coIDE/classA/components/coocox-master/Retarget_printf/source/printf.c \
+	src/system/printf.c \
 	src/radio/sx1276/sx1276.c \
 	src/peripherals/lis3dh.c \
 	src/boards/$(PLATFORM)/gps-board.c \
@@ -133,7 +134,7 @@ CXXFLAGS += -Xlinker -Map="$(BUILD)/$(TARGET).map"
 
 .PHONY: all clean distclean
 
-all: $(TARGET)
+all: $(TARGET) src/apps/classA/Commissioning.h
 	
 %.o: %.c
 	$(CC) $(CFLAGS)  "$<"

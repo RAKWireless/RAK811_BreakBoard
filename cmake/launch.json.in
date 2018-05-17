@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug-@TARGET_NAME@",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "request": "launch",
+            "executable": "${workspaceRoot}/build/src/apps/LoRaMac/@TARGET_NAME@",
+            "cwd": "${workspaceRoot}",
+            "svdFile": "${workspaceRoot}/cmake/STM32L15xxxA.svd"
+            "configFiles": [
+                "interface/jlink.cfg",
+//                "interface/@OPENOCD_INTERFACE@",                
+                "${workspaceRoot}/cmake/swd.cfg",
+                "target/@OPENOCD_TARGET@"
+            ]
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 /*
  / _____)             _              | |
-( (____  _____ ____ _| |_ _____  ____| |__
+ ( (____  _____ ____ _| |_ _____  ____| |__
  \____ \| ___ |    (_   _) ___ |/ ___)  _ \
- _____) ) ____| | | || |_| ____( (___| | | |
+  _____) ) ____| | | || |_| ____( (___| | | |
  (______/|_____)_|_|_| \__)_____)\____)_| |_|
  (C)2013 Semtech
 
@@ -26,13 +26,13 @@
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            5000
+#define APP_TX_DUTYCYCLE                            60000
 
 /*!
  * Defines a random delay for application data transmission duty cycle. 1s,
  * value in [ms].
  */
-#define APP_TX_DUTYCYCLE_RND                        1000
+#define APP_TX_DUTYCYCLE_RND                        APP_TX_DUTYCYCLE/20
 
 /*!
  * Default datarate
@@ -81,7 +81,7 @@
 /*!
  * LoRaWAN application port
  */
-#define LORAWAN_APP_PORT                            2
+#define LORAWAN_APP_PORT                            1
 
 /*!
  * User application data buffer size
@@ -214,7 +214,8 @@ void test_gps(void) {
 	uint8_t ret;
 	ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
 	altitudeGps = GpsGetLatestGpsAltitude(); // in m
-	//	printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);	    	
+	printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n",
+			latitude, longitude, altitudeGps);
 }
 
 void test_temp(void) {
@@ -229,29 +230,66 @@ void test_temp(void) {
 uint8_t GPS_GETFAIL = FAIL;
 
 static void PrepareTxFrame(uint8_t port) {
-	double latitude, longitude = 0;
+	double latitude, longitude, hdop, altitude = 0;
 	int16_t altitudeGps = 0xFFFF;
+	int32_t lat, lon, alt;
 	int8_t tempr = 25;
-	uint8_t ret;
+	uint8_t ret, int_hdop;
 	uint16_t bat;
 
 	switch (port) {
-	//https://mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload
-	//cayenne LPP GPS
+//Edis Protocol
+	case 1: {
+		hdop = GpsGetLatestGpsHdop();
+		altitude = GpsGetLatestGpsdAltitude();
+		ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
+		printf("GpsGetLatestGpsPositionDouble ret = %d\r\n", ret);
+		if (ret == SUCCESS) {
+			if (hdop < 25.5) {
+				int_hdop = hdop * 10;
+			} else {
+				int_hdop = 0xFF;
+			}
+			if (altitude < -500) {
+				alt = 0x0000;
+			} else if (altitude > 9000) {
+				alt = 0xFFFF;
+			} else {
+				alt = (altitude + 500)/9500 * 0xFFFF;
+			}
+			lat = (latitude+90)/180 * 0xFFFFFF;
+			lon = (longitude+180)/360 * 0xFFFFFF;
+			AppData[0] = lat >> 16 & 0xFF;
+			AppData[1] = lat >>  8 & 0xFF;
+			AppData[2] = lat       & 0xFF;
+			AppData[3] = lon >> 16 & 0xFF;
+			AppData[4] = lon >>  8 & 0xFF;
+			AppData[5] = lon       & 0xFF;
+			AppData[6] = alt >>  8 & 0xFF;
+			AppData[7] = alt       & 0xFF;
+			AppData[8] = int_hdop;
+			AppDataSize = 9;
+		} else {
+			AppDataSize = 0;
+			GPS_GETFAIL = SUCCESS;
+		}
+	}
+	break;
+		//https://mydevices.com/cayenne/docs/lora/#lora-cayenne-low-power-payload
+		//cayenne LPP GPS
 	case 2: {
 		ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
 		altitudeGps = GpsGetLatestGpsAltitude(); // in m
-		//printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);
 		printf("GpsGetLatestGpsPositionDouble ret = %d\r\n", ret);
 		if (ret == SUCCESS) {
 			AppData[0] = 0x01;
 			AppData[1] = 0x88;
-			AppData[2] = ((int32_t) (latitude * 10000) >> 16) & 0xFF;
-			AppData[3] = ((int32_t) (latitude * 10000) >> 8) & 0xFF;
-			AppData[4] = ((int32_t) (latitude * 10000)) & 0xFF;
-			AppData[5] = ((int32_t) (longitude * 10000) >> 16) & 0xFF;
-			AppData[6] = ((int32_t) (longitude * 10000) >> 8) & 0xFF;
-			AppData[7] = ((int32_t) (longitude * 10000)) & 0xFF;
+			AppData[2] = ((int32_t)(latitude * 10000) >> 16) & 0xFF;
+			AppData[3] = ((int32_t)(latitude * 10000) >> 8) & 0xFF;
+			AppData[4] = ((int32_t)(latitude * 10000)) & 0xFF;
+			AppData[5] = ((int32_t)(longitude * 10000) >> 16) & 0xFF;
+			AppData[6] = ((int32_t)(longitude * 10000) >> 8) & 0xFF;
+			AppData[7] = ((int32_t)(longitude * 10000)) & 0xFF;
 			AppData[8] = ((altitudeGps * 100) >> 16) & 0xFF;
 			AppData[9] = ((altitudeGps * 100) >> 8) & 0xFF;
 			AppData[10] = (altitudeGps * 100) & 0xFF;
@@ -322,6 +360,8 @@ static void PrepareTxFrame(uint8_t port) {
 	default:
 		break;
 	}
+	printf("Port: %d, Payload (%d Bytes): ", port, AppDataSize);
+	dump_hex2str(AppData, AppDataSize);
 }
 
 /*!
@@ -607,8 +647,8 @@ static void McpsIndication(McpsIndication_t *mcpsIndication) {
 						mlmeReq.Req.TxCw.Timeout = (uint16_t)(
 								(mcpsIndication->Buffer[1] << 8)
 										| mcpsIndication->Buffer[2]);
-						mlmeReq.Req.TxCw.Frequency =
-								(uint32_t) ((mcpsIndication->Buffer[3] << 16)
+						mlmeReq.Req.TxCw.Frequency = (uint32_t)(
+								(mcpsIndication->Buffer[3] << 16)
 										| (mcpsIndication->Buffer[4] << 8)
 										| mcpsIndication->Buffer[5]) * 100;
 						mlmeReq.Req.TxCw.Power = mcpsIndication->Buffer[6];
@@ -741,7 +781,7 @@ int main(void) {
 			MlmeReq_t mlmeReq;
 
 			// Initialize LoRaMac device unique ID
-			BoardGetUniqueId( DevEui );
+			BoardGetUniqueId(DevEui);
 
 			printf("OTAA: \r\n");
 			printf("Dev_EUI: ");
@@ -838,10 +878,10 @@ int main(void) {
 					NextTx = SendFrame();
 				}
 
-				AppPort++;
-				if (AppPort >= 5) {
-					AppPort = 2;
-				}
+//				AppPort++;
+//				if (AppPort >= 5) {
+//					AppPort = 2;
+//				}
 			}
 			if (ComplianceTest.Running == true) {
 				// Schedule next packet transmission
@@ -883,7 +923,9 @@ int main(void) {
 				LIS3DH_ReadReg(LIS3DH_OUT_X_L + index, AppData + 2 + index);
 				DelayMs(1);
 			}
-			//printf("[Debug]: ACC X:%04X Y:%04X Z:%04X\r\n", AppData[3]<<8 | AppData[2], AppData[5]<<8 | AppData[4], AppData[7]<<8 | AppData[6]);
+			printf("[Debug]: ACC X:%04X Y:%04X Z:%04X\r\n",
+					AppData[3] << 8 | AppData[2], AppData[5] << 8 | AppData[4],
+					AppData[7] << 8 | AppData[6]);
 		}
 	}
 }
