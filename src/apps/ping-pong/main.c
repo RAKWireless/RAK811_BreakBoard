@@ -339,7 +339,7 @@ int lorap2p_test(void)
 
     // Target board initialization
     BoardInitMcu( );
-		printf("LoRa2P2 Test Start.\r\n");
+		printf("LoRaP2P Test Start.\r\n");
     // Radio initialization
     RadioEvents.TxDone = OnTxDone;
     RadioEvents.RxDone = OnRxDone;
