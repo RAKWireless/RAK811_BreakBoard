@@ -152,6 +152,21 @@ enum BoardPowerSources
     BATTERY_POWER,
 };
 
+typedef struct{
+
+    uint8_t dev_addr[4];
+    uint8_t dev_eui[8];
+    uint8_t app_eui[8];
+    uint8_t app_key[16];
+    uint8_t nwks_key[16];
+    uint8_t apps_key[16];
+    uint8_t join_mode[2];     // 0x55  0xAA
+	uint8_t region[6]; //EU868 US915
+
+}lorawan_config_t;
+
+extern lorawan_config_t g_lorawan_parameter;
+
 /*!
  * \brief Disable interrupts
  *

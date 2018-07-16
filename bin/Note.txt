@@ -1,0 +1,25 @@
+------------------------------------------------------
+*****************************************************
+------------------------------------------------------
+软件版本V1.1.3 / Software version V1.1.3
+更新记录： / Update record:
+1.添加支持AT命令，命令列表下表所示； / 1. Add the AT command, the command list is shown below;
+2.修改发送数据时间，修改为60s发送一包数据； / 2. Modify the time of sending data, and modify it to send a packet of data for 60s;
+3.整合所有频段，支持频段切换，通过AT命令切换频段。 / 3. Integrate all frequency bands, support band switching, and switch frequency bands by AT command;
+
+
+AT命令列表: / AT command list:
+
+at+dev_eui=xxxxxxxxxxxxxxxx                      // 设置设备dev_eui / Set device dev_eui
+at+app_eui=xxxxxxxxxxxxxxxx                      // 设置设备app_eui / Set device app_eui
+at+app_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      // 设置设备app_key / Set device app_key
+
+at+dev_addr=xxxxxxxx                             // 设置设备dev_addr / Set device dev_addr
+at+nwks_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     // 设置设备nwks_key / Set device nwks_key
+at+apps_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     // 设置设备apps_key / Set device apps_key
+
+at+join_mode=otaa/abp                            // 设置设备加入方式 otaa 或者 abp / Set the device to join otaa or abp
+at+region=EU868/US915/AS923/AU915/IN865/KR920    // 设置设备地区频段 / Set device region
+
+
+参数设置完成后，复位设备启用参数。 / After the parameter setting is completed, reset the device enable parameter.

@@ -54,7 +54,7 @@ bool LIS3DH_ReadReg(uint8_t Reg, uint8_t* Data)
 	
   ret = I2cReadBuffer( &Lis3dh_i2c, 0x32, Read_Reg, Data, 1 );
   if (ret !=SUCCESS) {
-    printf("LIS3DH no ack\r\n");
+    //printf("LIS3DH no ack\r\n");
   }
   
   return true;
@@ -74,7 +74,7 @@ u8_t LIS3DH_WriteReg(uint8_t WriteAddr, uint8_t Data)
   
   ret = I2cWriteBuffer( &Lis3dh_i2c, 0x32, WriteAddr, (uint8_t *)&Data, 1 );   
   if (ret !=SUCCESS) {
-    printf("LIS3DH no ack\r\n");
+    //printf("LIS3DH no ack\r\n");
   }
   
   return true;

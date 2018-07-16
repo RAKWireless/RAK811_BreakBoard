@@ -115,8 +115,8 @@ void BoardInitPeriph( void )
     //Init GPS
     GpsInit( );
 	
-	  //Init LIS3DH
-	  LIS3DH_Init( );
+	//Init LIS3DH
+	LIS3DH_Init( );
 
     // Switch LED 1, 2 OFF
     GpioWrite( &Led1, 1 );
@@ -134,16 +134,16 @@ void BoardInitMcu( void )
         HAL_Init( );
 
         SystemClockConfig( );
-			
-				UartMcuInit(&Uart1, UART_1, UART_TX, UART_RX);
-				UartMcuConfig(&Uart1, RX_TX, 115200, 
-																		 UART_8_BIT,
-																		 UART_1_STOP_BIT,
-																		 NO_PARITY,
-																		 NO_FLOW_CTRL);
+	
+		UartMcuInit(&Uart1, UART_1, UART_TX, UART_RX);
+		UartMcuConfig(&Uart1, RX_TX, 115200, 
+									 UART_8_BIT,
+									 UART_1_STOP_BIT,
+									 NO_PARITY,
+									 NO_FLOW_CTRL);
         RtcInit( );
 
-        BoardUnusedIoInit( );	
+        BoardUnusedIoInit( );
     }
     else
     {
@@ -178,7 +178,7 @@ void BoardDeInitMcu( void )
     //GpioInit( &ioPin, OSC_LSE_IN, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
     //GpioInit( &ioPin, OSC_LSE_OUT, PIN_INPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
 	
-	  GpioWrite( &SX1276.Xtal, 0 );
+	GpioWrite( &SX1276.Xtal, 0 );
 }
 
 uint32_t BoardGetRandomSeed( void )
@@ -282,7 +282,7 @@ uint8_t BoardGetBatteryLevel( void )
 
 static void BoardUnusedIoInit( void )
 {
-
+	Gpio_t ioPin;
 #if defined( USE_DEBUGGER )
     HAL_DBGMCU_EnableDBGStopMode( );
     HAL_DBGMCU_EnableDBGSleepMode( );

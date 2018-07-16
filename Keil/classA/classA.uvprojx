@@ -78,9 +78,9 @@
             <nStopB2X>0</nStopB2X>
           </BeforeMake>
           <AfterMake>
-            <RunUserProg1>0</RunUserProg1>
+            <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name></UserProg1Name>
+            <UserProg1Name>fromelf.exe  --bin -o "$L@L.bin" "#L"</UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
@@ -367,7 +367,7 @@
             <v6LangP>0</v6LangP>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER STM32L151xB USE_DEBUGGER REGION_EU868</Define>
+              <Define>USE_HAL_DRIVER USE_DEBUGGER STM32L151xB REGION_US915 REGION_EU868 REGION_AS923 REGION_AU915 REGION_KR920 REGION_IN865</Define>
               <Undefine></Undefine>
               <IncludePath>..\..\src;..\..\src\boards\RAK811BreakBoard;..\..\src\boards\RAK811BreakBoard\cmsis;..\..\src\boards\mcu\stm32;..\..\src\boards\mcu\stm32\cmsis;..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc;..\..\src\mac;..\..\src\mac\region;..\..\src\peripherals;..\..\src\radio;..\..\src\system;..\..\src\system\crypto</IncludePath>
             </VariousControls>
@@ -571,6 +571,16 @@
               <FileName>stm32l1xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32l1xx_hal_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32l1xx_hal_flash_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -2291,23 +2291,6 @@ LoRaMacStatus_t SetTxContinuousWave1( uint16_t timeout, uint32_t frequency, uint
     return LORAMAC_STATUS_OK;
 }
 
-char* rw_Region2Str(LoRaMacRegion_t region)
-{
-  switch(region) {
-    case LORAMAC_REGION_AS923: return "AS923";
-    case LORAMAC_REGION_AU915: return "AU915";
-    case LORAMAC_REGION_CN470: return "CN470";
-    case LORAMAC_REGION_CN779: return "CN779";
-    case LORAMAC_REGION_EU433: return "EU433";
-    case LORAMAC_REGION_EU868: return "EU868";
-    case LORAMAC_REGION_KR920: return "KR920";
-    case LORAMAC_REGION_IN865: return "IN865";
-    case LORAMAC_REGION_US915: return "US915";
-    case LORAMAC_REGION_US915_HYBRID: return "US915_H";
-  default:
-    return "";
-  }  
-}
 
 LoRaMacStatus_t LoRaMacInitialization( LoRaMacPrimitives_t *primitives, LoRaMacCallback_t *callbacks, LoRaMacRegion_t region )
 {
@@ -2326,12 +2309,11 @@ LoRaMacStatus_t LoRaMacInitialization( LoRaMacPrimitives_t *primitives, LoRaMacC
         return LORAMAC_STATUS_PARAMETER_INVALID;
     }
     // Verify if the region is supported
-		printf("\r\nSelected LoraWAN 1.0.2 Region: %s \r\n\r\n", rw_Region2Str(region));
     if( RegionIsActive( region ) == false )
     {
         return LORAMAC_STATUS_REGION_NOT_SUPPORTED;
     }
-
+    printf("\r\nSelected LoraWAN 1.0.2 Region: %s \r\n\r\n", rw_Region2Str(region));
     LoRaMacPrimitives = primitives;
     LoRaMacCallbacks = callbacks;
     LoRaMacRegion = region;

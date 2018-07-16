@@ -393,7 +393,7 @@ bool RegionAU915ChanMaskSet( ChanMaskSetParams_t* chanMaskSet )
     // Check the number of active channels
     // According to ACMA regulation, we require at least 20 125KHz channels, if
     // the node shall utilize 125KHz channels.
-    if( ( nbChannels < 20 ) &&
+    if( ( nbChannels < 2 ) &&      // RAK Modify parameters 20 to 2 in order to be the same as US915
         ( nbChannels > 0 ) )
     {
         return false;

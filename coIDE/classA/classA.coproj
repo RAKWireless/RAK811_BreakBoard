@@ -30,7 +30,12 @@
           <Define name="USE_HAL_DRIVER "/>
           <Define name="STM32L151xB "/>
           <Define name="STM32L151CBU6"/>
+          <Define name="REGION_EU868"/>
+          <Define name="REGION_AS923"/>
+          <Define name="REGION_AU915"/>
+          <Define name="REGION_IN865"/>
           <Define name="REGION_US915"/>
+          <Define name="REGION_KR920"/>
         </DefinedSymbols>
       </Compile>
       <Link useDefault="0">
@@ -124,15 +129,17 @@
     <File name="boards/mcu/stm32/utilities.c" path="../../src/boards/mcu/stm32/utilities.c" type="1"/>
     <File name="apps" path="" type="2"/>
     <File name="apps/main.c" path="../../src/apps/classA/main.c" type="1"/>
+    <File name="boards/RAK811BreakBoard/STM32L1xx_HAL_Devicer/stm32l1xx_hal_flash_ex.c" path="../../src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.c" type="1"/>
     <File name="boards/RAK811BreakBoard/STM32L1xx_HAL_Devicer/stm32l1xx_hal_rtc.c" path="../../src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.c" type="1"/>
     <File name="system/crypto/cmac.c" path="../../src/system/crypto/cmac.c" type="1"/>
-    <File name="system/crypto/aes.c" path="../../src/system/crypto/aes.c" type="1"/>
     <File name="boards/RAK811BreakBoard/adc-board.c" path="../../src/boards/RAK811BreakBoard/adc-board.c" type="1"/>
+    <File name="system/crypto/aes.c" path="../../src/system/crypto/aes.c" type="1"/>
     <File name="boards/RAK811BreakBoard/cmsis/system_stm32l1xx.c" path="../../src/boards/RAK811BreakBoard/cmsis/system_stm32l1xx.c" type="1"/>
     <File name="boards/RAK811BreakBoard/sx1276-board.c" path="../../src/boards/RAK811BreakBoard/sx1276-board.c" type="1"/>
-    <File name="mac/region/RegionAS923.c" path="../../src/mac/region/RegionAS923.c" type="1"/>
     <File name="mac/region/RegionUS915-Hybrid.c" path="../../src/mac/region/RegionUS915-Hybrid.c" type="1"/>
     <File name="mac/region/RegionEU868.c" path="../../src/mac/region/RegionEU868.c" type="1"/>
+    <File name="mac/region/RegionAS923.c" path="../../src/mac/region/RegionAS923.c" type="1"/>
+    <File name="boards/RAK811BreakBoard/STM32L1xx_HAL_Devicer/stm32l1xx_hal_flash.c" path="../../src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.c" type="1"/>
     <File name="mac/region/RegionCommon.c" path="../../src/mac/region/RegionCommon.c" type="1"/>
     <File name="mac/LoRaMacCrypto.c" path="../../src/mac/LoRaMacCrypto.c" type="1"/>
     <File name="boards/RAK811BreakBoard/STM32L1xx_HAL_Devicer/stm32l1xx_hal_i2c.c" path="../../src/boards/mcu/stm32/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c" type="1"/>

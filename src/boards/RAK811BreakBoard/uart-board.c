@@ -225,6 +225,7 @@ uint8_t UartMcuGetChar( Uart_t *obj, uint8_t *data )
     return 1;
 }
 
+
 void HAL_UART_TxCpltCallback( UART_HandleTypeDef *handle )
 {
     uint8_t data;

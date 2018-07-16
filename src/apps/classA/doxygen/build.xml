@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project default="ComponentDoc" name="Component Document project">
+	<property name="doxygen" value="C:\CooCox\CoIDE_V2Beta\Library\doxygen\doxygen.exe"/>
+    <property name="Root_Dir" value="../"/>
+    
+    <!-- Product Components Document -->
+    <target name="ComponentDoc">
+
+        <mkdir dir="${Root_Dir}\Output"/>
+    
+        <exec dir="${Root_Dir}\doxygen" executable="${doxygen}">
+            <arg value="Doxyfile"/>
+        </exec>
+    </target>
+	
+	<target name="clean">
+	    <delete dir="${Root_Dir}\Output"/>
+    </target>
+	
+	<target depends="clean" name="rebuild">
+		<antcall target="ComponentDoc"/>
+	</target>
+</project>

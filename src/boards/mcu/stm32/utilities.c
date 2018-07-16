@@ -83,3 +83,18 @@ int8_t Nibble2HexChar( uint8_t a )
         return '?';
     }
 }
+
+uint16_t crc_calc(uint16_t crc, uint8_t *start, uint8_t *end)
+{
+  uint8_t  *data;
+
+  for (data = start; data < end; data++)
+  {
+    crc  = (crc >> 8) | (crc << 8);
+    crc ^= *data;
+    crc ^= (crc & 0xff) >> 4;
+    crc ^= crc << 12;
+    crc ^= (crc & 0xff) << 5;
+  }
+  return crc;
+}

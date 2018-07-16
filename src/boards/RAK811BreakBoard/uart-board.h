@@ -26,6 +26,9 @@ typedef enum
     UART_USB_CDC = 255,
 }UartId_t;
 
+
+int e_getchar(void);
+
 /*!
  * \brief Initializes the UART object and MCU peripheral
  *
@@ -92,5 +95,6 @@ uint8_t UartMcuGetChar( Uart_t *obj, uint8_t *data );
  * \retval status    [0: OK, 1: Busy]
  */
 uint8_t UartMcuGetBuffer( Uart_t *obj, uint8_t *data, uint16_t size );
+
 
 #endif // __UART_MCU_H__

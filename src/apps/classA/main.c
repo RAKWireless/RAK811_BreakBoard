@@ -23,10 +23,17 @@
 #include "Region.h"
 #include "Commissioning.h"
 
+char* rw_Region2Str(LoRaMacRegion_t region);
+LoRaMacRegion_t rw_Str2Region(char* region);
+LoRaMacRegion_t region;
+bool OTAA_JOIN_STATE = false;
+#define FLASH_USER_ADDR  0x0801E000
+lorawan_config_t g_lorawan_parameter;
+
 /*!
  * Defines the application data transmission duty cycle. 5s, value in [ms].
  */
-#define APP_TX_DUTYCYCLE                            20000
+#define APP_TX_DUTYCYCLE                            60000
 
 /*!
  * Defines a random delay for application data transmission duty cycle. 1s,
@@ -51,7 +58,7 @@
  */
 #define LORAWAN_ADR_ON                              1
 
-#if defined( REGION_EU868 )
+//#if defined( REGION_EU868 )
 
 #include "LoRaMacTest.h"
 
@@ -76,7 +83,7 @@
 
 #endif
 
-#endif
+//#endif
 
 /*!
  * LoRaWAN application port
@@ -86,35 +93,33 @@
 /*!
  * User application data buffer size
  */
-#if defined( REGION_CN470 ) || defined( REGION_CN779 ) || defined( REGION_EU433 ) || defined( REGION_EU868 ) || defined( REGION_IN865 ) || defined( REGION_KR920 )
+//#if defined( REGION_CN470 ) || defined( REGION_CN779 ) || defined( REGION_EU433 ) || defined( REGION_EU868 ) || defined( REGION_IN865 ) || defined( REGION_KR920 )
 
-#define LORAWAN_APP_DATA_SIZE                       16
+//#define LORAWAN_APP_DATA_SIZE                       16
 
-#elif defined( REGION_AS923 ) || defined( REGION_AU915 ) || defined( REGION_US915 ) || defined( REGION_US915_HYBRID )
+//#elif defined( REGION_AS923 ) || defined( REGION_AU915 ) || defined( REGION_US915 ) || defined( REGION_US915_HYBRID )
 
 #define LORAWAN_APP_DATA_SIZE                       11
 
-#else
+//#else
 
-#error "Please define a region in the compiler options."
+//#error "Please define a region in the compiler options."
 
-#endif
+//#endif
 
-static uint8_t DevEui[] = LORAWAN_DEVICE_EUI;
-static uint8_t AppEui[] = LORAWAN_APPLICATION_EUI;
-static uint8_t AppKey[] = LORAWAN_APPLICATION_KEY;
+//static uint8_t DevEui[] = LORAWAN_DEVICE_EUI;
+//static uint8_t AppEui[] = LORAWAN_APPLICATION_EUI;
+//static uint8_t AppKey[] = LORAWAN_APPLICATION_KEY;
 
-#if( OVER_THE_AIR_ACTIVATION == 0 )
 
-static uint8_t NwkSKey[] = LORAWAN_NWKSKEY;
-static uint8_t AppSKey[] = LORAWAN_APPSKEY;
+//static uint8_t NwkSKey[] = LORAWAN_NWKSKEY;
+//static uint8_t AppSKey[] = LORAWAN_APPSKEY;
 
 /*!
  * Device address
  */
 static uint32_t DevAddr = LORAWAN_DEVICE_ADDRESS;
 
-#endif
 
 /*!
  * Application port
@@ -205,26 +210,27 @@ void dump_hex2str(uint8_t *buf, uint8_t len) {
 	printf("\r\n");
 }
 
-/*!
- * \brief   Prepares the payload of the frame
- */
-void test_gps(void) {
-	double latitude, longitude = 0;
-	int16_t altitudeGps = 0xFFFF;
-	uint8_t ret;
-	ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
-	altitudeGps = GpsGetLatestGpsAltitude(); // in m
-	//	printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);	    	
-}
-
-void test_temp(void) {
-	int8_t tempr = 25;
-
-	LIS3DH_GetTempRaw(&tempr); //only tempr changed value
-	tempr = tempr + 20; // temprature should be calibration  in a right temp for every device
-	printf("[Debug]: tempr: %d Bat: %dmv\r\n", tempr,
-			BoardBatteryMeasureVolage());
-}
+//
+///*!
+// * \brief   Prepares the payload of the frame
+// */
+//void test_gps(void) {
+//	double latitude, longitude = 0;
+//	int16_t altitudeGps = 0xFFFF;
+//	uint8_t ret;
+//	ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
+//	altitudeGps = GpsGetLatestGpsAltitude(); // in m
+//	//	printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);
+//}
+//
+//void test_temp(void) {
+//	int8_t tempr = 25;
+//
+//	LIS3DH_GetTempRaw(&tempr); //only tempr changed value
+//	tempr = tempr + 20; // temprature should be calibration  in a right temp for every device
+//	printf("[Debug]: tempr: %d Bat: %dmv\r\n", tempr,
+//			BoardBatteryMeasureVolage());
+//}
 
 uint8_t GPS_GETFAIL = FAIL;
 
@@ -241,8 +247,8 @@ static void PrepareTxFrame(uint8_t port) {
 	case 2: {
 		ret = GpsGetLatestGpsPositionDouble(&latitude, &longitude);
 		altitudeGps = GpsGetLatestGpsAltitude(); // in m
-		//printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);
-		printf("GpsGetLatestGpsPositionDouble ret = %d\r\n", ret);
+		printf("[Debug]: latitude: %f, longitude: %f , altitudeGps: %d \n", latitude, longitude, altitudeGps);
+		//printf("GpsGetLatestGpsPositionDouble ret = %d\r\n", ret);
 		if (ret == SUCCESS) {
 			AppData[0] = 0x01;
 			AppData[1] = 0x88;
@@ -394,14 +400,14 @@ static void OnLed1TimerEvent(void) {
 	TimerStart(&Led1Timer);
 }
 
-/*!
- * \brief Function executed on Led 2 Timeout event
- */
-static void OnLed2TimerEvent(void) {
-	TimerStop(&Led2Timer);
-	// Switch LED 2 OFF
-	GpioWrite(&Led2, 1);
-}
+///*!
+// * \brief Function executed on Led 2 Timeout event
+// */
+//static void OnLed2TimerEvent(void) {
+//	TimerStop(&Led2Timer);
+//	// Switch LED 2 OFF
+//	GpioWrite(&Led2, 1);
+//}
 
 /*!
  * \brief   MCPS-Confirm event function
@@ -508,10 +514,10 @@ static void McpsIndication(McpsIndication_t *mcpsIndication) {
 					mibReq.Type = MIB_ADR;
 					mibReq.Param.AdrEnable = true;
 					LoRaMacMibSetRequestConfirm(&mibReq);
-
-#if defined( REGION_EU868 )
-					LoRaMacTestSetDutyCycleOn( false );
-#endif
+					if (0 == strcmp(rw_Region2Str(region),"EU868"))
+					{
+						LoRaMacTestSetDutyCycleOn( LORAWAN_DUTYCYCLE_ON );
+					}
 					GpsStop();
 				}
 			} else {
@@ -528,9 +534,10 @@ static void McpsIndication(McpsIndication_t *mcpsIndication) {
 					mibReq.Type = MIB_ADR;
 					mibReq.Param.AdrEnable = LORAWAN_ADR_ON;
 					LoRaMacMibSetRequestConfirm(&mibReq);
-#if defined( REGION_EU868 )
-					LoRaMacTestSetDutyCycleOn( LORAWAN_DUTYCYCLE_ON );
-#endif
+					if (0 == strcmp(rw_Region2Str(region),"EU868"))
+					{
+						LoRaMacTestSetDutyCycleOn( LORAWAN_DUTYCYCLE_ON );
+					}
 					GpsStart();
 					break;
 				case 1: // (iii, iv)
@@ -576,16 +583,18 @@ static void McpsIndication(McpsIndication_t *mcpsIndication) {
 					mibReq.Type = MIB_ADR;
 					mibReq.Param.AdrEnable = LORAWAN_ADR_ON;
 					LoRaMacMibSetRequestConfirm(&mibReq);
-#if defined( REGION_EU868 )
-					LoRaMacTestSetDutyCycleOn( LORAWAN_DUTYCYCLE_ON );
-#endif
+					if (0 == strcmp(rw_Region2Str(region),"EU868"))
+					{
+						LoRaMacTestSetDutyCycleOn( LORAWAN_DUTYCYCLE_ON );
+					}
+					
 					GpsStart();
 
 					mlmeReq.Type = MLME_JOIN;
 
-					mlmeReq.Req.Join.DevEui = DevEui;
-					mlmeReq.Req.Join.AppEui = AppEui;
-					mlmeReq.Req.Join.AppKey = AppKey;
+					mlmeReq.Req.Join.DevEui = g_lorawan_parameter.dev_eui;
+					mlmeReq.Req.Join.AppEui = g_lorawan_parameter.app_eui;
+					mlmeReq.Req.Join.AppKey = g_lorawan_parameter.app_key;
 					mlmeReq.Req.Join.NbTrials = 3;
 
 					LoRaMacMlmeRequest(&mlmeReq);
@@ -646,6 +655,7 @@ static void MlmeConfirm(MlmeConfirm_t *mlmeConfirm) {
 			DeviceState = DEVICE_STATE_SEND;
 			printf("OTAA Join Success \r\n");
 			// Switch LED 1 ON
+			OTAA_JOIN_STATE = true;
 			GpioWrite(&Led1, 0);
 			TimerStart(&Led1Timer);
 		} else {
@@ -672,58 +682,96 @@ static void MlmeConfirm(MlmeConfirm_t *mlmeConfirm) {
 	NextTx = true;
 }
 
+char* rw_Region2Str(LoRaMacRegion_t region)
+{
+  switch(region) {
+    case LORAMAC_REGION_AS923: return "AS923";
+    case LORAMAC_REGION_AU915: return "AU915";
+    case LORAMAC_REGION_CN470: return "CN470";
+    case LORAMAC_REGION_CN779: return "CN779";
+    case LORAMAC_REGION_EU433: return "EU433";
+    case LORAMAC_REGION_EU868: return "EU868";
+    case LORAMAC_REGION_KR920: return "KR920";
+    case LORAMAC_REGION_IN865: return "IN865";
+    case LORAMAC_REGION_US915: return "US915";
+    case LORAMAC_REGION_US915_HYBRID: return "US915_H";
+  default:
+    return "";
+  }  
+}
+
+LoRaMacRegion_t rw_Str2Region(char* region)
+{
+  if ( 0==strcmp(region, "AS923")) {
+     return LORAMAC_REGION_AS923;
+  } else if (0==strcmp(region, "AU915")) {
+     return LORAMAC_REGION_AU915;
+  }else if (0==strcmp(region, "CN470")) {
+     return LORAMAC_REGION_CN470;
+  }else if (0==strcmp(region, "CN779")) {
+     return LORAMAC_REGION_CN779;
+  }else if (0==strcmp(region, "EU433")) {
+     return LORAMAC_REGION_EU433;
+  }else if (0==strcmp(region, "EU868")) {
+     return LORAMAC_REGION_EU868;
+  }else if (0==strcmp(region, "KR920")) {
+     return LORAMAC_REGION_KR920;
+  }else if (0==strcmp(region, "IN865")) {
+     return LORAMAC_REGION_IN865;
+  }else if (0==strcmp(region, "US915")) {
+     return LORAMAC_REGION_US915;
+  }else if (0==strcmp(region, "US915_H")) {
+     return LORAMAC_REGION_US915_HYBRID;
+  }else {
+     return -1;
+  }
+}
+
+LoRaMacPrimitives_t LoRaMacPrimitives;
+LoRaMacCallback_t LoRaMacCallbacks;
+MibRequestConfirm_t mibReq;
+
 /**
- * Main application entry point.
+ * lorawan application entry point.
  */
-int main(void) {
-	LoRaMacPrimitives_t LoRaMacPrimitives;
-	LoRaMacCallback_t LoRaMacCallbacks;
-	MibRequestConfirm_t mibReq;
-
-	BoardInitMcu();
-	BoardInitPeriph();
-
-	DeviceState = DEVICE_STATE_INIT;
-	printf("RAK811 BreakBoard soft version: 1.0.2\r\n");
-
-	while (1) {
+int LoRaWAN_LOOP(void)
+{
 		switch (DeviceState) {
 		case DEVICE_STATE_INIT: {
 			LoRaMacPrimitives.MacMcpsConfirm = McpsConfirm;
 			LoRaMacPrimitives.MacMcpsIndication = McpsIndication;
 			LoRaMacPrimitives.MacMlmeConfirm = MlmeConfirm;
 			LoRaMacCallbacks.GetBatteryLevel = BoardGetBatteryLevel;
-#if defined( REGION_AS923 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_AS923 );
-#elif defined( REGION_AU915 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_AU915 );
-#elif defined( REGION_CN470 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_CN470 );
-#elif defined( REGION_CN779 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_CN779 );
-#elif defined( REGION_EU433 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_EU433 );
-#elif defined( REGION_EU868 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_EU868 );
-#elif defined( REGION_IN865 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_IN865 );
-#elif defined( REGION_KR920 )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_KR920 );
-#elif defined( REGION_US915 )
-			LoRaMacInitialization(&LoRaMacPrimitives, &LoRaMacCallbacks,
-					LORAMAC_REGION_US915);
-#elif defined( REGION_US915_HYBRID )
-			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_US915_HYBRID );
-#else
-#error "Please define a region in the compiler options."
-#endif
+			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, region );
+//#if defined( REGION_AS923 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_AS923 );
+//#elif defined( REGION_AU915 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_AU915 );
+//#elif defined( REGION_CN470 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_CN470 );
+//#elif defined( REGION_CN779 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_CN779 );
+//#elif defined( REGION_EU433 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_EU433 );
+//#elif defined( REGION_EU868 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_EU868 );
+//#elif defined( REGION_IN865 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_IN865 );
+//#elif defined( REGION_KR920 )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_KR920 );
+//#elif defined( REGION_US915 )
+//			LoRaMacInitialization(&LoRaMacPrimitives, &LoRaMacCallbacks,
+//					LORAMAC_REGION_US915);
+//#elif defined( REGION_US915_HYBRID )
+//			LoRaMacInitialization( &LoRaMacPrimitives, &LoRaMacCallbacks, LORAMAC_REGION_US915_HYBRID );
+//#else
+//#error "Please define a region in the compiler options."
+//#endif
 			TimerInit(&TxNextPacketTimer, OnTxNextPacketTimerEvent);
 
 			TimerInit(&Led1Timer, OnLed1TimerEvent);
 			TimerSetValue(&Led1Timer, 2000);
 
-			TimerInit(&Led2Timer, OnLed2TimerEvent);
-			TimerSetValue(&Led2Timer, 50);
 
 			mibReq.Type = MIB_ADR;
 			mibReq.Param.AdrEnable = LORAWAN_ADR_ON;
@@ -737,95 +785,105 @@ int main(void) {
 			break;
 		}
 		case DEVICE_STATE_JOIN: {
-#if( OVER_THE_AIR_ACTIVATION != 0 )
-			MlmeReq_t mlmeReq;
-
-			// Initialize LoRaMac device unique ID
-			//BoardGetUniqueId( DevEui );
-
-			printf("OTAA: \r\n");
-			printf("Dev_EUI: ");
-			dump_hex2str(DevEui, 8);
-			printf("AppEui: ");
-			dump_hex2str(AppEui, 8);
-			printf("AppKey: ");
-			dump_hex2str(AppKey, 16);
-
-			mlmeReq.Type = MLME_JOIN;
-
-			mlmeReq.Req.Join.DevEui = DevEui;
-			mlmeReq.Req.Join.AppEui = AppEui;
-			mlmeReq.Req.Join.AppKey = AppKey;
-			mlmeReq.Req.Join.NbTrials = 3;
-
-#if defined ( REGION_US915 )  // Used in TTN US915 band.
-			uint16_t ch_mask[5];
-			ch_mask[0] = 0xff00;
-			ch_mask[1] = 0x0000;
-			ch_mask[2] = 0x0000;
-			ch_mask[3] = 0x0000;
-			ch_mask[4] = 0x0000;
-
-			mibReq.Type = MIB_CHANNELS_DEFAULT_MASK;
-			mibReq.Param.ChannelsDefaultMask = ch_mask;
-			LoRaMacMibSetRequestConfirm(&mibReq);
-
-			mibReq.Type = MIB_CHANNELS_MASK;
-			mibReq.Param.ChannelsDefaultMask = ch_mask;
-			LoRaMacMibSetRequestConfirm(&mibReq);
-#endif
-
-			if (NextTx == true) {
-				LoRaMacMlmeRequest(&mlmeReq);
-				printf("OTAA Join Start... \r\n");
-			}
-			DeviceState = DEVICE_STATE_SLEEP;
-
-#else
-			// Choose a random device address if not already defined in Commissioning.h
-			if( DevAddr == 0 )
+//#if( OVER_THE_AIR_ACTIVATION != 0 )
+			if (0 == strcmp(rw_Region2Str(region),"US915") || 0 == strcmp(rw_Region2Str(region),"AU915"))
 			{
-				// Random seed initialization
-				srand1( BoardGetRandomSeed( ) );
+				uint16_t ch_mask[5];
+				ch_mask[0] = 0xff00;
+				ch_mask[1] = 0x0000;
+				ch_mask[2] = 0x0000;
+				ch_mask[3] = 0x0000;
+				ch_mask[4] = 0x0000;
 
-				// Choose a random device address
-				DevAddr = randr( 0, 0x01FFFFFF );
+				mibReq.Type = MIB_CHANNELS_DEFAULT_MASK;
+				mibReq.Param.ChannelsDefaultMask = ch_mask;
+				LoRaMacMibSetRequestConfirm(&mibReq);
+
+				mibReq.Type = MIB_CHANNELS_MASK;
+				mibReq.Param.ChannelsDefaultMask = ch_mask;
+				LoRaMacMibSetRequestConfirm(&mibReq);
 			}
+			
+			
+			if (g_lorawan_parameter.join_mode[0] == 0x0A && g_lorawan_parameter.join_mode[1] == 0x55) {
+				MlmeReq_t mlmeReq;
 
-			printf("ABP: \r\n");
-			printf("Dev_EUI: ");
-			dump_hex2str(DevEui , 8);
-			printf("DevAddr: %08X\r\n", DevAddr);
-			printf("NwkSKey: ");
-			dump_hex2str(NwkSKey , 16);
-			printf("AppSKey: ");
-			dump_hex2str(AppSKey , 16);
+				// Initialize LoRaMac device unique ID
+				//BoardGetUniqueId( DevEui );
 
-			mibReq.Type = MIB_NET_ID;
-			mibReq.Param.NetID = LORAWAN_NETWORK_ID;
-			LoRaMacMibSetRequestConfirm( &mibReq );
+				printf("OTAA: \r\n");
+				printf("Dev_EUI: ");
+				dump_hex2str(g_lorawan_parameter.dev_eui, 8);
+				printf("AppEui: ");
+				dump_hex2str(g_lorawan_parameter.app_eui, 8);
+				printf("AppKey: ");
+				dump_hex2str(g_lorawan_parameter.app_key, 16);
 
-			mibReq.Type = MIB_DEV_ADDR;
-			mibReq.Param.DevAddr = DevAddr;
-			LoRaMacMibSetRequestConfirm( &mibReq );
+				mlmeReq.Type = MLME_JOIN;
 
-			mibReq.Type = MIB_NWK_SKEY;
-			mibReq.Param.NwkSKey = NwkSKey;
-			LoRaMacMibSetRequestConfirm( &mibReq );
+				mlmeReq.Req.Join.DevEui = g_lorawan_parameter.dev_eui;
+				mlmeReq.Req.Join.AppEui = g_lorawan_parameter.app_eui;
+				mlmeReq.Req.Join.AppKey = g_lorawan_parameter.app_key;
+				mlmeReq.Req.Join.NbTrials = 3;
 
-			mibReq.Type = MIB_APP_SKEY;
-			mibReq.Param.AppSKey = AppSKey;
-			LoRaMacMibSetRequestConfirm( &mibReq );
+				if (NextTx == true) {
+					LoRaMacMlmeRequest(&mlmeReq);
+					printf("OTAA Join Start... \r\n");
+				}
+				DeviceState = DEVICE_STATE_SLEEP;
 
-			mibReq.Type = MIB_NETWORK_JOINED;
-			mibReq.Param.IsNetworkJoined = true;
-			LoRaMacMibSetRequestConfirm( &mibReq );
+			} else if(g_lorawan_parameter.join_mode[0] == 0xAB && g_lorawan_parameter.join_mode[1] == 0xAA) {
+				// Choose a random device address if not already defined in Commissioning.h
+				
+				uint32_t *devaddr = (uint32_t *)&g_lorawan_parameter.dev_addr[0];
+				 				
+//				if( DevAddr == 0 )
+//				{
+//					// Random seed initialization
+//					srand1( BoardGetRandomSeed( ) );
 
-			// Switch LED 1 ON
-			GpioWrite( &Led1, 0 );
-			TimerStart( &Led1Timer );
-			DeviceState = DEVICE_STATE_SEND;
-#endif
+//					// Choose a random device address
+//					DevAddr = randr( 0, 0x01FFFFFF );
+//				}
+				
+				printf("ABP: \r\n");
+				printf("Dev_EUI: ");
+				dump_hex2str(g_lorawan_parameter.dev_eui , 8);
+				//printf("DevAddr: %08X\r\n", DevAddr);
+				printf("DevAddr: ");
+				printf("%02X%02X%02X%02X\r\n",g_lorawan_parameter.dev_addr[3],g_lorawan_parameter.dev_addr[2],g_lorawan_parameter.dev_addr[1],g_lorawan_parameter.dev_addr[0]);
+				//dump_hex2str(g_lorawan_parameter.dev_addr , 4);
+				printf("NwkSKey: ");
+				dump_hex2str(g_lorawan_parameter.nwks_key , 16);
+				printf("AppSKey: ");
+				dump_hex2str(g_lorawan_parameter.apps_key , 16);
+
+				mibReq.Type = MIB_NET_ID;
+				mibReq.Param.NetID = LORAWAN_NETWORK_ID;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_DEV_ADDR;
+				mibReq.Param.DevAddr = *devaddr;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_NWK_SKEY;
+				mibReq.Param.NwkSKey = g_lorawan_parameter.nwks_key;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_APP_SKEY;
+				mibReq.Param.AppSKey = g_lorawan_parameter.apps_key;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				mibReq.Type = MIB_NETWORK_JOINED;
+				mibReq.Param.IsNetworkJoined = true;
+				LoRaMacMibSetRequestConfirm( &mibReq );
+
+				// Switch LED 1 ON
+				GpioWrite( &Led1, 0 );
+				TimerStart( &Led1Timer );
+				DeviceState = DEVICE_STATE_SEND;
+			}	
+			
 			break;
 		}
 		case DEVICE_STATE_SEND: {
@@ -864,7 +922,9 @@ int main(void) {
 		}
 		case DEVICE_STATE_SLEEP: {
 			// Wake up through events
-			TimerLowPowerHandler();
+//			if (OTAA_JOIN_STATE) {
+				TimerLowPowerHandler();
+//			}
 			break;
 		}
 		default: {
@@ -872,18 +932,217 @@ int main(void) {
 			break;
 		}
 		}
-		if (GpsGetPpsDetectedState() == true) {
-			// Switch LED 2 ON
-			GpioWrite(&Led2, 0);
-			TimerStart(&Led2Timer);
-		}
-		if (Lis3dhGetIntState() == true) {
-			Lis3dh_IntEventClear();
-			for (uint8_t index = 0; index < 6; index++) {
-				LIS3DH_ReadReg(LIS3DH_OUT_X_L + index, AppData + 2 + index);
-				DelayMs(1);
+}
+
+
+void read_falsh_data(uint32_t addr, void *buffer, uint16_t len)
+{
+	memcpy(buffer, (void *)addr, len);
+}
+
+void write_flash_data(uint32_t addr, void *buffer,uint16_t len)
+{
+	uint32_t *wr_data = buffer;
+	int i = 0;
+	uint32_t PAGEError = 0;
+	FLASH_EraseInitTypeDef EraseInitStruct;
+
+	HAL_FLASH_Unlock();
+
+	for (i = 0; i < len/4; i++) {
+	    if (addr % FLASH_PAGE_SIZE == 0) {
+	        EraseInitStruct.TypeErase   = FLASH_TYPEERASE_PAGES;
+	        EraseInitStruct.PageAddress = addr;
+	        EraseInitStruct.NbPages     = 1;
+	        HAL_FLASHEx_Erase(&EraseInitStruct, &PAGEError);
+	    }
+
+	    HAL_FLASH_Program(FLASH_TYPEPROGRAM_WORD, addr, *wr_data);
+        wr_data++;
+        addr += 4;
+	}
+	//DelayMs(1000);
+	HAL_FLASH_Lock();
+}
+
+int parse_args(char* str, char* argv[])
+{
+    int i = 0;
+    char* ch = str;
+
+    while(*ch != '\0') {
+        i++;
+        /*Check if length exceeds*/
+        if (i > 10) {
+            return 0;
+        }
+
+        argv[i-1] = ch;
+        		
+        while(*ch != '=' && *ch != '\0' && *ch != '\r') {
+                ch++;
+        }
+        if (*ch == '\r')
+            break;
+				
+        if (*ch != '\0') {
+            *ch = '\0';
+			//printf("parm: i=%d, %s \r\n", i-1, argv[i-1]);
+            ch++;
+            while(*ch == '=') {
+                ch++;
+            }
+        }
+    }
+    return i;
+}
+
+int chack_data(char* str)
+{
+	int argc;
+	char hex_num[3] = {0};
+	char *argv[2]={NULL};
+	argc = parse_args(str, argv);
+	if (argc == 2){		
+		//printf("%s\r\n",argv[0]);
+		//printf("%s\r\n",argv[1]);
+		char *buffer = argv[1];
+		read_falsh_data(FLASH_USER_ADDR,&g_lorawan_parameter,sizeof(g_lorawan_parameter));
+		
+		if (0 == strcmp(argv[0],"at+dev_eui")){
+			if (strlen(buffer) == 16) {
+				for (int i = 0; i < 8; i++)
+				{
+					memcpy(hex_num, &buffer[i*2], 2);
+					g_lorawan_parameter.dev_eui[i] = strtoul(hex_num, NULL, 16);
+				}
+			} else {
+				return 1;
 			}
-			//printf("[Debug]: ACC X:%04X Y:%04X Z:%04X\r\n", AppData[3]<<8 | AppData[2], AppData[5]<<8 | AppData[4], AppData[7]<<8 | AppData[6]);
+		} else if (0 == strcmp(argv[0],"at+app_eui")) {
+			if (strlen(buffer) == 16) {
+				for (int i = 0; i < 8; i++)
+				{
+					memcpy(hex_num, &buffer[i*2], 2);
+					g_lorawan_parameter.app_eui[i] = strtoul(hex_num, NULL, 16);
+				}
+			} else {
+				return 1;
+			}
+		} else if (0 == strcmp(argv[0],"at+app_key")) {
+			if (strlen(buffer) == 32) {
+				for (int i = 0; i < 16; i++)
+				{
+					memcpy(hex_num, &buffer[i*2], 2);
+					g_lorawan_parameter.app_key[i] = strtoul(hex_num, NULL, 16);
+				}
+			} else {
+				return 1;
+			}
+		} else if (0 == strcmp(argv[0],"at+region")) {
+			if (0 == strcmp(buffer,"EU868") || 0 == strcmp(buffer,"US915") || 0 == strcmp(buffer,"AU915")  ||
+				0 == strcmp(buffer,"AS923") || 0 == strcmp(buffer,"IN865") || 0 == strcmp(buffer,"KR920")){
+				memcpy(g_lorawan_parameter.region,buffer,sizeof(g_lorawan_parameter.region));
+			}else{
+				return 1;
+			}		
+		} else if (0 == strcmp(argv[0],"at+join_mode")) {
+			if (0 == strcmp(buffer,"otaa")){
+				g_lorawan_parameter.join_mode[0] = 0x0A;  // OTAA
+				g_lorawan_parameter.join_mode[1] = 0x55;
+			} else if (0 == strcmp(buffer,"abp")){
+				g_lorawan_parameter.join_mode[0] = 0xAB;  // ABP
+				g_lorawan_parameter.join_mode[1] = 0xAA;
+			}else{
+				return 1;
+			}
+		} else if (0 == strcmp(argv[0],"at+dev_addr")) {
+			if (strlen(buffer) == 8) {
+				uint32_t dev_addr;
+				dev_addr = strtoul(buffer, NULL, 16);
+				memcpy(g_lorawan_parameter.dev_addr,&dev_addr,sizeof(g_lorawan_parameter.dev_addr));
+			} else {
+				return 1;
+			}
+		} else if (0 == strcmp(argv[0],"at+apps_key")) {
+			if (strlen(buffer) == 32) {
+				for (int i = 0; i < 16; i++)
+				{
+					memcpy(hex_num, &buffer[i*2], 2);
+					g_lorawan_parameter.apps_key[i] = strtoul(hex_num, NULL, 16);
+				}
+			} else {
+				return 1;
+			}
+		} else if (0 == strcmp(argv[0],"at+nwks_key")) {
+			if (strlen(buffer) == 32) {
+				for (int i = 0; i < 16; i++)
+				{
+					memcpy(hex_num, &buffer[i*2], 2);
+					g_lorawan_parameter.nwks_key[i] = strtoul(hex_num, NULL, 16);
+				}
+			} else {
+				return 1;
+			}
+		} else {
+			return 1;
 		}
+		return 0;
+	}
+	return 1;
+}
+
+char g_buffer[64];
+int data_i = 0;
+void getchar_loop(void)
+{
+	uint8_t data = '\0';
+
+	data = e_getchar();
+	if ( data != '\0' && data != 0xFF)
+	{
+		g_buffer[data_i] = data;
+		
+		if (data == '\r') {
+		   g_buffer[data_i] = '\0';
+		}
+		data_i++;
+	}
+	if (data == '\n' || data_i == 63) {
+		
+		printf("%s\r\n",g_buffer);
+		data_i = 0;
+		
+		if (chack_data(g_buffer) == 0){
+			write_flash_data(FLASH_USER_ADDR,&g_lorawan_parameter,sizeof(g_lorawan_parameter));
+			printf("OK\r\n");
+		} else {
+			printf("ERROR\r\n");
+		}
+   }
+}
+	
+
+int main (void)
+{
+	BoardInitMcu();
+	BoardInitPeriph();
+	
+	read_falsh_data(FLASH_USER_ADDR,&g_lorawan_parameter,sizeof(g_lorawan_parameter));
+    region = rw_Str2Region((char*)g_lorawan_parameter.region);
+	//printf("region = %s\r\n",rw_Region2Str(region));
+	
+	DeviceState = DEVICE_STATE_INIT;
+	printf("RAK811 BreakBoard soft version: 1.1.3\r\n");
+	
+	while(1)
+	{
+		LoRaWAN_LOOP();
+		getchar_loop();
 	}
 }
+
+
+
+
+
