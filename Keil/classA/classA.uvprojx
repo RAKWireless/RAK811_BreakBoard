@@ -367,7 +367,7 @@
             <v6LangP>0</v6LangP>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER USE_DEBUGGER STM32L151xB REGION_US915 REGION_EU868 REGION_AS923 REGION_AU915 REGION_KR920 REGION_IN865</Define>
+              <Define>USE_HAL_DRIVER USE_DEBUGGER STM32L151xB</Define>
               <Undefine></Undefine>
               <IncludePath>..\..\src;..\..\src\boards\RAK811BreakBoard;..\..\src\boards\RAK811BreakBoard\cmsis;..\..\src\boards\mcu\stm32;..\..\src\boards\mcu\stm32\cmsis;..\..\src\boards\mcu\stm32\STM32L1xx_HAL_Driver\Inc;..\..\src\mac;..\..\src\mac\region;..\..\src\peripherals;..\..\src\radio;..\..\src\system;..\..\src\system\crypto</IncludePath>
             </VariousControls>

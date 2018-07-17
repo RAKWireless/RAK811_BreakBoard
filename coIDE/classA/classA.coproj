@@ -30,12 +30,6 @@
           <Define name="USE_HAL_DRIVER "/>
           <Define name="STM32L151xB "/>
           <Define name="STM32L151CBU6"/>
-          <Define name="REGION_EU868"/>
-          <Define name="REGION_AS923"/>
-          <Define name="REGION_AU915"/>
-          <Define name="REGION_IN865"/>
-          <Define name="REGION_US915"/>
-          <Define name="REGION_KR920"/>
         </DefinedSymbols>
       </Compile>
       <Link useDefault="0">

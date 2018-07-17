@@ -52,8 +52,12 @@
 #ifndef __REGION_H__
 #define __REGION_H__
 
-
-
+#define REGION_US915
+#define REGION_AU915
+#define REGION_AS923
+#define REGION_KR920
+#define REGION_EU868
+#define REGION_IN865
 
 /*!
  * Macro to compute bit of a channel index.
