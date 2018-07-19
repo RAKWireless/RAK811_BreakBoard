@@ -1139,6 +1139,16 @@ int main (void)
 	{
 		LoRaWAN_LOOP();
 		getchar_loop();
+        if( Lis3dhGetIntState( ) == true)
+        {
+            Lis3dh_IntEventClear( );
+            for(uint8_t index = 0;index <6; index ++)
+            {
+                LIS3DH_ReadReg(LIS3DH_OUT_X_L + index, AppData + 2 + index);
+                DelayMs(1);
+            }
+            //printf("[Debug]: ACC X:%04X Y:%04X Z:%04X\r\n", AppData[3]<<8 | AppData[2], AppData[5]<<8 | AppData[4], AppData[7]<<8 | AppData[6]);
+        }
 	}
 }
 
