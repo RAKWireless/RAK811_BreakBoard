@@ -10,6 +10,8 @@
 
 AT命令列表: / AT command list:
 
+at+region=EU868/US915/AS923/AU915/IN865/KR920    // 设置设备地区频段 / Set device region
+
 at+dev_eui=xxxxxxxxxxxxxxxx                      // 设置设备dev_eui / Set device dev_eui
 at+app_eui=xxxxxxxxxxxxxxxx                      // 设置设备app_eui / Set device app_eui
 at+app_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      // 设置设备app_key / Set device app_key
@@ -19,7 +21,7 @@ at+nwks_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     // 设置设备nwks_key / Set d
 at+apps_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     // 设置设备apps_key / Set device apps_key
 
 at+join_mode=otaa/abp                            // 设置设备加入方式 otaa 或者 abp / Set the device to join otaa or abp
-at+region=EU868/US915/AS923/AU915/IN865/KR920    // 设置设备地区频段 / Set device region
 
 
+(Note:Please set the region first, then set the join method.)
 参数设置完成后，复位设备启用参数。 / After the parameter setting is completed, reset the device enable parameter.

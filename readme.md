@@ -12,6 +12,8 @@ The document please go to : http://www.rakwireless.com/en/download
 3.  Integrate all frequency bands, support band switching, and switch frequency bands by AT command;
 
      AT command list: \
+     at+region=EU868/US915/AS923/AU915/IN865/KR920    // Set device region
+     
      at+dev_eui=xxxxxxxxxxxxxxxx                      //  Set device dev_eui  \
      at+app_eui=xxxxxxxxxxxxxxxx                      // Set device app_eui  \
      at+app_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      //  Set device app_key 
@@ -21,6 +23,6 @@ The document please go to : http://www.rakwireless.com/en/download
      at+apps_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     // Set device apps_key  
 
      at+join_mode=otaa/abp                            // Set the device to join otaa or abp \
-     at+region=EU868/US915/AS923/AU915/IN865/KR920    // Set device region 
 
+     (Note:Please set the region first, then set the join method.)  \
      After the parameter setting is completed, reset the device enable parameter.
