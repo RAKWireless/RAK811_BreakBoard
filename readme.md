@@ -1,3 +1,8 @@
+# RAK811 is EOL and no longer supported.
+# This example is based on a 2018 version of Keil and does not work on newer Keil versions.
+# If you like RAKwireless Stamp Modules, consider to switch to our latest RAK3172 stamp module.
+
+
 ## RAK811 BreakBoard (For RAK811 TrackerBoard and RAK811 SensorNodeBoard)
 ### chip： RAK811 + GPS + MEMS + charge battery
 #### Support CoIDE/Keil5
